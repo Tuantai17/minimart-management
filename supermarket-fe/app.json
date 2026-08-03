@@ -1,0 +1,79 @@
+{
+  "expo": {
+    "name": "mini-supermarket",
+    "slug": "mini-supermarket",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/app_logo.png",
+    "scheme": "minisupermarket",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/app_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#62c144"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.minisupermarket.app",
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Dùng để xác định vị trí giao hàng và tính phí vận chuyển"
+      },
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.293379101098-qgqqeboum4i3ajtplue4qr6406ne8m1k"
+        }
+      }
+    },
+    "android": {
+      "package": "com.minisupermarket.app",
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "backgroundColor": "#62c144",
+        "foregroundImage": "./assets/images/app_logo_android.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/app_logo.png"
+    },
+    "plugins": [
+      "expo-router",
+      "@react-native-firebase/app",
+      "@react-native-firebase/messaging",
+      "@react-native-google-signin/google-signin",
+      [
+        "react-native-fbsdk-next",
+        {
+          "appID": "960319206394200",
+          "clientToken": "9f6bfc1dcdd5ecf41b145909cb20eaf6",
+          "displayName": "Siêu Thị Mini",
+          "scheme": "fb960319206394200",
+          "advertiserIDCollectionEnabled": false,
+          "autoLogAppEventsEnabled": false,
+          "isAutoInitEnabled": true
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Dùng để xác định vị trí giao hàng và tính phí vận chuyển"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

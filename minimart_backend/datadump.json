@@ -1,0 +1,5375 @@
+[
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$LYCSwaaVmgMelG6skuooAG$MYxluFabGzORJ3zB95Bh95KHoxXu5ybEMeetT/g7uKY=",
+      "last_login": "2026-03-26T07:23:20.265Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2026-03-06T08:07:22.120Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$fLtxiTHw5B71ba4lexqIx0$hSnBJl25EhwaclWBanHyyr3vkQT6V6R44lHsSwhIBIc=",
+      "last_login": null,
+      "is_superuser": true,
+      "username": "admin1",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2026-03-06T09:33:02.386Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$Ozs5VzUat1Q2LVN2Uphml7$L+pDRt1PpKoyajYmsLlJZ3cV/CaGUfQm8t9DeXLWSMg=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nguyenvana@gmail.com",
+      "first_name": "Nguyễn Văn A",
+      "last_name": "",
+      "email": "nguyenvana@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-10T03:55:50.395Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$3R0nFGAUvOP9DnlsM0G0DS$S3rkmXAvzY0YGPk7iR/HduyK9VNK0b3GguJx2vLOHJs=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nguyenvanb@gmail.com",
+      "first_name": "Nguyễn Văn A",
+      "last_name": "",
+      "email": "nguyentruong23082005@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-10T04:04:37Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$dT9zWHnpV0MOByTbz7CFcI$Hn1pmpLtNyGgJMoECSMrxWIRHTMAJGppMJFHXZmagtM=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nguyenvanc@gmail.com",
+      "first_name": "dffgdgd",
+      "last_name": "",
+      "email": "nguyenvanc@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-10T06:07:35.523Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$s0HaZYqWUlHlgxIbpAXQdd$2tHTOtsdjLo1RwhsgyiV0hXX6Hps2VPfZ5lZdzXybXM=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nguyenvanqqqqq@gmail.com",
+      "first_name": "Nguyễn Văn Trời",
+      "last_name": "",
+      "email": "nguyenvanqqqqq@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-10T06:11:11.823Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$0HzmSo8pWRLOYsUYG9PDq3$Z+ZE/Yrc3jE/V8kw1u31q9Gp/RSgNvNmqIz3eUE0NRA=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nguyenvancho@gmail.com",
+      "first_name": "Nguyễn Văn Đền",
+      "last_name": "",
+      "email": "nguyenvancho@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-10T06:19:27.434Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$qOQ1ETHw6HI1RZz6WEssy7$p4vseOgmKBiGno2hzZZBwgy/O54wTgTbNT22YwxmjBo=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nger@gmail.com",
+      "first_name": "HelloHihi",
+      "last_name": "",
+      "email": "nger@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-10T07:17:04.046Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$TMdeVIGRzsZGluWhXKwLPm$mjdw0CtyChVYIk/ilGTMn8tC/JEiRIblAcu10kn9/0c=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nguyenabc@gmail.com",
+      "first_name": "nguyen van abc",
+      "last_name": "",
+      "email": "nguyenabc@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-10T09:01:08.267Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$LnvTlWZn4AxXhTgF48PpyH$ZyjSpPFNhbHcPFNJq+ORJGs/H1Hq+W3SVp1+kK5IXEI=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "helloB@gmail.com",
+      "first_name": "NguyenB",
+      "last_name": "",
+      "email": "helloB@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-10T09:07:02.800Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$5DCu7BjHRE2jO2yJPC3lH5$OlgnCW2IFpvXd8ablEQ24rO7bcvdJ1hbzjaw0tLuIfI=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nguyenthiC@gmail.com",
+      "first_name": "nguyen thi C",
+      "last_name": "",
+      "email": "nguyenthiC@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-10T09:44:41.782Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$OV4gMBPVcSrUOOX2UCWVp9$IwB9NaNYBFlLAYA4NsK9raw4GXfLtDdrdfeG0bpBi2E=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "anhxc@gmail.com",
+      "first_name": "NguyenAnhxc",
+      "last_name": "",
+      "email": "anhxc@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-10T09:47:27.677Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$RbCYCgNENbIqwyFddCmyYE$C68UyXLsFi2e8Y3eFrX+vZWVedVhm20SeQO/QLTpnOU=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "ngerersr@gmail.com",
+      "first_name": "Nguyen Van BCC",
+      "last_name": "",
+      "email": "ngerersr@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-12T03:15:38.035Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$lQyby4HpiPMn2xe288HVyU$H29iwRvqRl594aeEHXot3qiEPIQRffyFsXuY+GTXe4s=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nguyenthi@gmail.com",
+      "first_name": "Nguyễn Thị T",
+      "last_name": "",
+      "email": "nguyenthi@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-26T06:33:00.951Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$6ljYkZn3jM9s8nW06yOFdb$ilQjrFWEhDWGTp43MjJbvGPwx2XcWBSyNxs4E5HoruM=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "abc@gmail.com",
+      "first_name": "Nguyen ABC",
+      "last_name": "",
+      "email": "abc@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-26T06:36:05.967Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$6iyHQLZPAnsmIRtmiy9f8I$ogzzJXZBnNJOaHf3dqUuWNwcaKR632AEl/PeDRj5aiI=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "huhuhu@gmail.com",
+      "first_name": "huuhuhu",
+      "last_name": "",
+      "email": "huhuhu@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-26T06:37:13.917Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$RZ8ogmsDq5H3V1hyTjcRBv$OZcreMatR8ltmFYn66XlIalS95fA/UhFLGMqSHq3paA=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nnnn@gmail.com",
+      "first_name": "nnannanan",
+      "last_name": "",
+      "email": "nnnn@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-26T06:52:11.637Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$OAbS3WCk8al4EjXwRNb99t$ffOPp74VAqQ1oit5hRjgqzKe37um8SHtd32mO8toyKA=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "ngerhello@gmail.com",
+      "first_name": "Hellobe",
+      "last_name": "",
+      "email": "ngerhello@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-31T02:59:21.790Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "0kzuyspulfgozu0sm8jjytexlc80o7nf",
+    "fields": {
+      "session_data": ".eJxVjLsOwjAMAP_FM4qcNG1IR_Z-Q2QnNi2gVOpjQvw7qtQB1rvTvSHRvo1pX2VJU4EeLFx-GVN-Sj1EeVC9zybPdVsmNkdiTruaYS7yup3t32CkdYQeNPqucY5dduKL1UySrx6RI3JpSIuotD4Gixxdy4gBbdRoudOgFDJ8vvR2OFY:1w0aF3:qAnselVhPDv9BErCMhutf53jWtrNm6AUP8HuWIF2Few",
+      "expire_date": "2026-03-26T07:13:57.146Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "6fxkfs67mt4sxm48j294t9xfy2to8nsx",
+    "fields": {
+      "session_data": ".eJxVjLsOwjAMAP_FM4qcNG1IR_Z-Q2QnNi2gVOpjQvw7qtQB1rvTvSHRvo1pX2VJU4EeLFx-GVN-Sj1EeVC9zybPdVsmNkdiTruaYS7yup3t32CkdYQeNPqucY5dduKL1UySrx6RI3JpSIuotD4Gixxdy4gBbdRoudOgFDJ8vvR2OFY:1w4veA:bmAYhHg04884sMF0yxMcF_Is6YBD82Erw9AbSyiILeg",
+      "expire_date": "2026-04-07T06:53:50.049Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "o8bn5i2vi4be3kyvitby7m90vn23piy5",
+    "fields": {
+      "session_data": ".eJxVjLsOwjAMAP_FM4qcNG1IR_Z-Q2QnNi2gVOpjQvw7qtQB1rvTvSHRvo1pX2VJU4EeLFx-GVN-Sj1EeVC9zybPdVsmNkdiTruaYS7yup3t32CkdYQeNPqucY5dduKL1UySrx6RI3JpSIuotD4Gixxdy4gBbdRoudOgFDJ8vvR2OFY:1vzqIg:y7zyIhPPFE6s3XCHOSv88VZ-5tv2U7M5TNxI10BzLfQ",
+      "expire_date": "2026-03-24T06:10:38.962Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "v6zwqua8w7tgceauo0wa5s3ftv7vsycd",
+    "fields": {
+      "session_data": ".eJxVjLsOwjAMAP_FM4qcNG1IR_Z-Q2QnNi2gVOpjQvw7qtQB1rvTvSHRvo1pX2VJU4EeLFx-GVN-Sj1EeVC9zybPdVsmNkdiTruaYS7yup3t32CkdYQeNPqucY5dduKL1UySrx6RI3JpSIuotD4Gixxdy4gBbdRoudOgFDJ8vvR2OFY:1w5f3o:cXLU2lkFteIunvB00oLbqUdeAemezPDIkcRkj6GNAjI",
+      "expire_date": "2026-04-09T07:23:20.268Z"
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 1,
+    "fields": {
+      "name": "Nước giải khát",
+      "description": "",
+      "image": "categories/nuoc-ngot_f959f1b7921240f49c1c6842dc5d7894.jpg",
+      "parent": null,
+      "created_at": "2026-03-06T08:08:29.884Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 2,
+    "fields": {
+      "name": "Bánh kẹo",
+      "description": "",
+      "image": "categories/CONFACTIONARY-2.jpg",
+      "parent": null,
+      "created_at": "2026-03-06T08:10:22.980Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 3,
+    "fields": {
+      "name": "Thịt, cá, trứng, hải sản",
+      "description": "",
+      "image": "categories/vi-sao-nen-mua-thit-hai-san-trung-tai-bach-hoa-xanh-1_760x507.jpg",
+      "parent": null,
+      "created_at": "2026-03-12T08:07:44.211Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 4,
+    "fields": {
+      "name": "Thịt heo",
+      "description": "",
+      "image": "categories/thit-heo_202509110924556310.png",
+      "parent": 3,
+      "created_at": "2026-03-12T08:31:06.500Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 5,
+    "fields": {
+      "name": "Thịt bò",
+      "description": "",
+      "image": "categories/thit-bo_202509081008576405.png",
+      "parent": 3,
+      "created_at": "2026-03-12T08:38:34.938Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 6,
+    "fields": {
+      "name": "Trứng",
+      "description": "",
+      "image": "categories/trung-ga-vit_202509081005587899.png",
+      "parent": 3,
+      "created_at": "2026-03-12T09:13:19.111Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 7,
+    "fields": {
+      "name": "Hải sản",
+      "description": "",
+      "image": "categories/ca-hai-san_202509081006482134.png",
+      "parent": 3,
+      "created_at": "2026-03-12T09:15:40.596Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 8,
+    "fields": {
+      "name": "Ba rọi",
+      "description": "",
+      "image": "categories/xuong-que-heo-nhap-khau-dong-lanh-tui-500g_202601081014577838.jpg",
+      "parent": 4,
+      "created_at": "2026-03-12T09:25:41.738Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 9,
+    "fields": {
+      "name": "Sườn",
+      "description": "",
+      "image": "categories/-202401031012097640.png",
+      "parent": 4,
+      "created_at": "2026-03-12T10:01:17.506Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 10,
+    "fields": {
+      "name": "Đùi bò",
+      "description": "",
+      "image": "categories/dui-bo_202504211643337800.png",
+      "parent": 5,
+      "created_at": "2026-03-12T10:02:32.972Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 11,
+    "fields": {
+      "name": "Bánh snack",
+      "description": "",
+      "image": "categories/frame-3476166_202503191335420491.png",
+      "parent": 2,
+      "created_at": "2026-03-13T02:38:21.232Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 12,
+    "fields": {
+      "name": "Nước suối",
+      "description": "",
+      "image": "categories/nc-suoi_202603011126477894.gif",
+      "parent": 1,
+      "created_at": "2026-03-13T02:51:41.433Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 13,
+    "fields": {
+      "name": "Kẹo Dẻo & mềm",
+      "description": "",
+      "image": "categories/keo-deo_202508291641059896.png",
+      "parent": 2,
+      "created_at": "2026-03-13T03:23:05.789Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 14,
+    "fields": {
+      "name": "Nước ngọt",
+      "description": "",
+      "image": "categories/frame-3476174_202503191403106314.png",
+      "parent": 1,
+      "created_at": "2026-03-13T03:24:00.703Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 15,
+    "fields": {
+      "name": "Trứng gà",
+      "description": "",
+      "image": "categories/-202403291312003087.png",
+      "parent": 6,
+      "created_at": "2026-03-13T07:54:49.697Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 16,
+    "fields": {
+      "name": "Trứng vịt",
+      "description": "",
+      "image": "categories/-202403291312078758.png",
+      "parent": 6,
+      "created_at": "2026-03-13T07:55:22.021Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 17,
+    "fields": {
+      "name": "Rau, củ,  trái cây",
+      "description": "",
+      "image": "categories/raucutraicay.png",
+      "parent": null,
+      "created_at": "2026-03-19T03:30:25.679Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 18,
+    "fields": {
+      "name": "Trái cây",
+      "description": "",
+      "image": "categories/traicay.png",
+      "parent": 17,
+      "created_at": "2026-03-19T03:32:40.192Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 19,
+    "fields": {
+      "name": "Rau",
+      "description": "",
+      "image": "categories/rau.png",
+      "parent": 17,
+      "created_at": "2026-03-19T03:33:26.228Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 20,
+    "fields": {
+      "name": "Củ, quả",
+      "description": "",
+      "image": "categories/cuqua.png",
+      "parent": 17,
+      "created_at": "2026-03-19T03:34:04.567Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 21,
+    "fields": {
+      "name": "Chuối",
+      "description": "",
+      "image": "categories/chuoi.png",
+      "parent": 18,
+      "created_at": "2026-03-19T03:36:03.978Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 22,
+    "fields": {
+      "name": "Xoài",
+      "description": "",
+      "image": "categories/xoai.png",
+      "parent": 18,
+      "created_at": "2026-03-19T03:37:56.227Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 23,
+    "fields": {
+      "name": "Táo",
+      "description": "",
+      "image": "categories/tao.png",
+      "parent": 18,
+      "created_at": "2026-03-19T03:38:14.711Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 24,
+    "fields": {
+      "name": "Kem, sữa chua",
+      "description": "",
+      "image": "categories/kemsuachua.png",
+      "parent": null,
+      "created_at": "2026-03-19T03:40:21.105Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 25,
+    "fields": {
+      "name": "Kem",
+      "description": "",
+      "image": "categories/kem.gif",
+      "parent": 24,
+      "created_at": "2026-03-19T03:40:56.455Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 26,
+    "fields": {
+      "name": "Sữa chua",
+      "description": "",
+      "image": "categories/suachua.png",
+      "parent": 24,
+      "created_at": "2026-03-19T03:41:35.752Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 27,
+    "fields": {
+      "name": "Mì, cháo, phở",
+      "description": "",
+      "image": "categories/michaopho.png",
+      "parent": null,
+      "created_at": "2026-03-19T03:42:43.640Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 1,
+    "fields": {
+      "category": 13,
+      "name": "Kẹo dẻo hương hỗn hợp Chupa Chups 5 Mix gói 90g",
+      "sku": "keodeochupachup",
+      "price": "25000",
+      "discount_price": "23500.00",
+      "stock_quantity": 91,
+      "unit": "gói",
+      "description": "Kẹo dẻo trái cây tổng hợp với nhiều hương vị như dâu, cam, nho. Kẹo mềm, thơm và phù hợp cho mọi lứa tuổi. Thích hợp ăn vặt hoặc làm quà tặng.",
+      "image": "products/keo-deo-huong-hon-hop-chupa-chups-5-mix-goi-90g-202407081405290819.jpg",
+      "is_active": true,
+      "created_at": "2026-03-12T07:13:25.021Z",
+      "updated_at": "2026-03-26T08:44:05.928Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 2,
+    "fields": {
+      "category": 13,
+      "name": "Kẹo mềm hương trái cây Alpenliebe 2Chew gói 84g",
+      "sku": "andy001",
+      "price": "200000",
+      "discount_price": "18000.00",
+      "stock_quantity": 37,
+      "unit": "gói",
+      "description": "Hương vị trái cây thơm ngon, ngọt ngào, cung cấp nhiều năng lượng. Viên kẹo mềm dẻo, mang đến trải nghiệm thích thú khi thưởng thức. Kẹo mềm hương trái cây Alpenliebe 2Chew gói 84g có thể sử dụng trong các bữa tiệc. Kẹo mềm Alpenliebe là thương hiệu Ý được chọn mua, hương thơm ngọt ngào\r\nLoại kẹo\t\r\nKẹo mềm hương nho và dâu\r\nƯu điểm\t\r\nHương vị trái cây thanh mát, chua ngọt hoà quyện trong viên kẹo mềm dẻo, kích thích mọi giác quan.\r\nKhối lượng\t\r\n84g\r\nThành phần\t\r\nĐường, si rô glucoza, dầu dừa hydro hóa, gelatin, chất điều chỉnh độ chua, acid lactic, acid malic béo, este của sucrose với các acid béo, hương dâu giống tự nhiên, màu tổng hợp.\r\nThương hiệu\t\r\nAlpenliebe (Ý)\r\nHDSD\t\r\nDùng trực tiếp\r\nBảo quản\t\r\nBảo quản ở nơi khô ráo, thoáng mát tránh ánh nắng trực tiếp\r\nSản xuất\t\r\nViệt Nam\r\nBài viết sản phẩm\r\n\r\nĐôi nét về thương hiệu Alpenliebe \r\nAlpenliebe là thương hiệu bánh kẹo thuộc công ty TNHH Perfetti Van Melle thành lập từ năm 1997, chuyên sản xuất các sản phẩm kẹo thơm, mềm, ngọt với nhiều hương vị hấp dẫn. Đây là một trong những thương hiệu kẹo được nhiều người ưa chuộng.\r\n\r\nKẹo mềm hương trái cây Alpenliebe 2Chew gói 84g 1\r\nThành phần dinh dưỡng trong Kẹo mềm hương trái cây Alpenliebe 2 Chew gói 84g\r\nThành phần dinh dưỡng của kẹo mềm trái cây chứa đường, chất béo, protein, chất béo,...\r\n\r\nTrong 100g kẹo có khoảng 600 Kcal.\r\n\r\nTác dụng của sản phẩm với sức khỏe\r\nHỗ trợ tăng lượng đường trong máu\r\n\r\nGiúp cơ thể thư giãn, giảm căng thẳng\r\n\r\nCung cấp năng lượng cho cơ thể\r\n\r\n…\r\n\r\nKẹo mềm hương trái cây Alpenliebe 2Chew gói 84g 10\r\nLưu ý khi sử dụng và cách bảo quản Alpenliebe \r\nDùng trực tiếp\r\n\r\nBảo quản nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp của mặt trời\r\n\r\nSản phẩm có thể chứa sữa và gluten\r\n\r\nKhông sử dụng sản phẩm hết hạn hoặc có dấu hiệu hư hỏng\r\n\r\n… \r\n\r\nƯu điểm khi mua sản phẩm tại Bách hoá XANH\r\nHương vị trái cây thanh mát, chua ngọt hòa quyện trong viên kẹo mềm dẻo, kích thích mọi giác quan.\r\n\r\nMua online nhận được nhiều ưu đãi hấp dẫn và được giao hàng tận nơi.\r\n\r\nKẹo được đảm bảo nguồn gốc rõ ràng, chính hãng và chất lượng.\r\n\r\n…",
+      "image": "products/keo-mem-huong-trai-cay-alpenliebe-2chew-goi-875g-202211171130397017.jpg",
+      "is_active": true,
+      "created_at": "2026-03-12T07:19:17.588Z",
+      "updated_at": "2026-03-20T06:21:09.218Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 3,
+    "fields": {
+      "category": 13,
+      "name": "Kẹo mềm hương trái cây Sugus gói 210g",
+      "sku": "andy002",
+      "price": "50000",
+      "discount_price": null,
+      "stock_quantity": 85,
+      "unit": "gói",
+      "description": "Kẹo mềm có hương vị thanh mát, chua ngọt của trái cây tươi hoà quyện trong viên kẹo mềm dẻo, kích thích mọi giác quan. Kẹo mềm hương trái cây Sugus gói 210g tiện lợi, được chia thành nhiều viên nhỏ dễ bảo quản. Kẹo mềm Sugus mềm mềm dai ngon, ăn ngọt thích mê\r\nLoại kẹo\t\r\nKẹo mềm hương trái cây\r\nƯu điểm\t\r\nVị trái cây tươi chua ngọt hoà quyện trong viên kẹo mềm dẻo, hương thơm quyến rũ, kích thích mọi giác quan.\r\nKhối lượng\t\r\n210g\r\nSố lượng\t\r\n70 viên\r\nThành phần\t\r\nĐường, xiro glucose, dầu dừa, gelatin (Bovine gelatin), chất điều chỉnh độ axit (acid citric 330, acid matic 296), hương dâu, nho, cam, táo tự nhiên và tổng hợp, chất làm dày (Gum Arbic 414), màu thực phẩm tổng hợp (Azorubine 122, Sunset yellow 110, Tartrazine 102, Indigoo carmine 132, Brilliant Blue 133).\r\nNăng lượng\t\r\n122kcal/30g\r\nThương hiệu\t\r\nSugus (Thái Lan)\r\nHDSD\t\r\nKẹo dùng ngay khi mở gói\r\nBảo quản\t\r\nNơi khô ráo, thoáng mát\r\nSản xuất\t\r\nThái Lan\r\nBài viết sản phẩm\r\n\r\nĐôi nét về thương hiệu Sugus\r\nSugus là thương hiệu kẹo của Thụy Sỹ nổi tiếng trên thế giới được thành lập vào năm 1931, thuộc sở hữu của Công ty Wrigley. Các sản phẩm kẹo mang thương hiệu Sugus được rất nhiều người tiêu dùng ưa chuộng, không những trẻ em mà còn cả người lớn bởi hương vị kẹo hấp dẫn và tuyệt vời, khi ăn cảm giác tan chảy trong miệng.\r\n\r\nKẹo mềm Sugus vị trái cây gói 210g 1\r\nThành phần dinh dưỡng trong sản phẩm\r\nKẹo mềm hương trái cây Sugus gói 210g có chứa những thành phần dinh dưỡng chính như: Đường, các khoáng chất và vitamin cần thiết cho cơ thể. Trong 100g kẹo mềm Sugus trái cây có khoảng 406 Kcal.\r\n\r\nTác dụng của sản phẩm với sức khỏe\r\nKhông những có hương vị ngọt thanh hấp dẫn của trái cây, mà kẹo mềm Sugus còn có nhiều công dụng tốt cho sức khỏe như:\r\n\r\nCung cấp năng lượng cho cơ thể.\r\n\r\nBổ sung lượng đường cho máu.\r\n\r\nGiúp cơ thể hoạt động năng suất hơn.\r\n\r\nLưu ý khi sử dụng và cách bảo quản sản phẩm\r\nSản phẩm kẹo mềm Sugus được đóng gói thành từng viên kẹo nhỏ 3g nên rất tiện lợi khi sử dụng và dễ dàng bảo quản.\r\n\r\nBảo quản nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp của mặt trời\r\n\r\nKhông sử dụng sản phẩm đã hết hạn.\r\n\r\nNgoài sử dụng trực tiếp, kẹo còn có thể làm nguyên liệu chế biến nhiều món ăn khác.",
+      "image": "products/keo-mem-sugus-trai-cay-tui-210g-2-700x467.jpg",
+      "is_active": true,
+      "created_at": "2026-03-12T07:21:56.228Z",
+      "updated_at": "2026-03-24T08:23:01.027Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 4,
+    "fields": {
+      "category": 14,
+      "name": "Thùng 24 lon nước ngọt Pepsi Cola Sleek 235ml",
+      "sku": null,
+      "price": "138000",
+      "discount_price": "135000.00",
+      "stock_quantity": 22,
+      "unit": "thùng",
+      "description": "Nước ngọt từ thương hiệu nước ngọt Pepsi là sự lựa chọn tuyệt vời giúp bạn xua tan đi cơn khát, cung cấp nguồn năng lượng dồi dào cho cơ thể. Thùng 24 lon nước ngọt Pepsi Cola Sleek 235ml mang hương vị thơm ngon, sảng khoái nhờ hương vị tự nhiên cùng chất tạo ngọt tổng hơp an toàn, chất lượng. \r\n \r\nThương hiệu\t\r\nPepsi (Mỹ)\r\nSản xuất tại\t\r\nViệt Nam\r\nLoại nước\t\r\nnước ngọt\r\nThành phần\t\r\nNước bão hòa CO2, đường HFCS, đường, màu tổng hợp (Caramen nhóm IV 150d), chất điều chỉnh độ axit (338), cafeine, chất ổn định (414), hỗn hợp tự nhiên\r\nLượng ga\t\r\nCó ga\r\nThể tích\t\r\n245ml\r\nSố lượng\t\r\nThùng 24 lon\r\nSử dụng\t\r\nNgon hơn khi uống lạnh\r\nBảo quản\t\r\nBảo quản nơi khô ráo, tránh ánh nắng\r\nLưu ý\t\r\nKhông dùng sản phẩm quá hạn sử dụng\r\nBài viết sản phẩm\r\n\r\nĐôi nét về thương hiệu\r\nPepsi là tập đoàn đa quốc gia nổi tiếng hiện có trụ sở tại Mỹ chuyên sản xuất và kinh doanh các loại đồ uống, thực phẩm,... Với kinh nghiệm lâu đời, dây chuyền sản xuất hiện đại và nguồn nguyên liệu chất lượng, các sản phẩm của Pepsico được người tiêu dùng ưa chuộng và lựa chọn sử dụng.\r\n\r\n\r\nThành phần dinh dưỡng trong sản phẩm\r\nNước uống có ga hay nước ngọt là nguồn cung cấp năng lượng và đường dồi dào cho cơ thể. Ngoài ra sản phẩm còn bổ sung carbohydrate và natri. Theo thông tin được in rõ trên bao bì sản phẩm, giá trị năng lượng trung bình trong 245ml nước ngọt Pepsi khoảng 73.5 kcal.\r\n\r\nTác dụng của sản phẩm với sức khỏe\r\nMột số tác dụng nổi bật của sản phẩm đối với sức khỏe như:\r\n\r\nCung cấp năng lượng\r\n\r\nBổ sung đường\r\n\r\nHỗ trợ hệ tiêu hóa\r\n\r\nGiảm cảm giác đầy bụng, khó tiêu\r\n\r\n…\r\n\r\nVới thùng 24 lon sẽ thích hợp với những bữa tiệc tùng, sinh nhật,... để bạn và gia đình, bạn bè thoải mái thưởng thức.\r\n\r\n\r\nLưu ý khi sử dụng và cách bảo quản sản phẩm\r\nNước ngọt có ga thường được bảo quản ở nơi khô ráo, thoáng mát, tránh đặt sản phẩm ở nơi có nhiệt độ cao. Nước ngọt sẽ ngon hơn khi bạn dùng lạnh hoặc dùng với đá. Tránh cầm lon nước xốc mạnh.\r\nLưu ý: Không sử dụng khi bạn dị ứng thành phần sản phẩm, sản phẩm hết hạn hoặc có dấu hiệu hỏng.\r\n\r\nCác món ăn ngon với sản phẩm\r\nVới nước ngọt có ga bạn có thể sử dụng làm các món như thịt rim, gà kho, làm kem,...",
+      "image": "products/thung-24-lon-nuoc-ngot-pepsi-cola-sleek-245ml-202405271444588834.jpg",
+      "is_active": true,
+      "created_at": "2026-03-12T07:24:55.902Z",
+      "updated_at": "2026-03-31T06:12:46.869Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 5,
+    "fields": {
+      "category": 9,
+      "name": "Sườn que heo nhập khẩu 500g",
+      "sku": null,
+      "price": "32900",
+      "discount_price": null,
+      "stock_quantity": 0,
+      "unit": "khay",
+      "description": "",
+      "image": "products/xuong-que-heo-nhap-khau-dong-lanh-tui-500g_202601081014577838.jpg",
+      "is_active": true,
+      "created_at": "2026-03-12T08:40:33.330Z",
+      "updated_at": "2026-03-24T08:23:01.025Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 6,
+    "fields": {
+      "category": 10,
+      "name": "Nạm bò 150g",
+      "sku": null,
+      "price": "24100",
+      "discount_price": "24000.00",
+      "stock_quantity": 0,
+      "unit": "khay",
+      "description": "",
+      "image": "products/nam-bo-150g-ban-le_202508181609273520.jpg",
+      "is_active": true,
+      "created_at": "2026-03-12T08:42:23.903Z",
+      "updated_at": "2026-03-26T03:07:54.302Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 7,
+    "fields": {
+      "category": 8,
+      "name": "Ba rọi heo C.P",
+      "sku": null,
+      "price": "53700",
+      "discount_price": null,
+      "stock_quantity": 32,
+      "unit": "khay",
+      "description": "",
+      "image": "products/ba-roi-heo-1kg_202601271522368652.jpg",
+      "is_active": true,
+      "created_at": "2026-03-12T09:30:26.894Z",
+      "updated_at": "2026-03-31T06:08:25.756Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 8,
+    "fields": {
+      "category": 15,
+      "name": "Trứng gà hộp 10 quả",
+      "sku": null,
+      "price": "27000",
+      "discount_price": null,
+      "stock_quantity": 87,
+      "unit": "Hộp",
+      "description": "Khi mua sản phẩm Trứng gà hộp 10 quả tại Bách hoá XANH, khách hàng sẽ nhận được sản phẩm thuộc 1 trong 3 thương hiệu Happy Egg, QLEgg, Năm Hưởng\r\nĐôi nét về thương hiệu Happy Egg\r\nHappy Egg là một thương hiệu thuộc Công ty TNHH Emivest Feedmill Việt Nam. Các trang trại gia cầm của Emivest được trang bị các thiết bị hiện đại cùng với công nghệ hiện đại và các biện pháp quản lý tốt để duy trì và tuân thủ các biện pháp kiểm soát vệ sinh và an toàn sinh học nghiêm ngặt trong các trang trại gia cầm nông trại\r\n\r\nThông tin sản phẩm Hộp 10 quả trứng gà Happy Egg\r\nMỗi quả trứng có khối lượng từ 54-60g được đóng thành hộp 10 quả trong hộp nhựa giúp bảo quản tiện lợi hơn, hạn chế bị vỡ \r\n\r\nThành phần: trứng gà tươi 100%\r\n\r\nBảo quản trứng ở nơi khô ráo, thoáng mát \r\n\r\nHạn sử dụng 14 ngày ở nhiệt độ 30 - 35 độ C và 30 ngày ở nhiệt độ 7 - 10 độ C",
+      "image": "products/hop-10-trung-ga-tuoi-qlegg-202011040900362921.jpg",
+      "is_active": true,
+      "created_at": "2026-03-13T02:27:23.147Z",
+      "updated_at": "2026-03-26T03:43:06.527Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 9,
+    "fields": {
+      "category": 15,
+      "name": "Combo 2 hộp trứng gà hộp 10 quả",
+      "sku": null,
+      "price": "50000",
+      "discount_price": null,
+      "stock_quantity": 0,
+      "unit": "Hộp",
+      "description": "",
+      "image": "products/trung-ga-hop-10-qua-giao-ngau-nhien-thuong-hieu-clone_202510210954374759.jpg",
+      "is_active": true,
+      "created_at": "2026-03-13T02:37:27.690Z",
+      "updated_at": "2026-03-26T04:17:06.178Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 10,
+    "fields": {
+      "category": 11,
+      "name": "Snack khoai tây vị tự nhiên Lay's Classic gói 53g",
+      "sku": null,
+      "price": "12000",
+      "discount_price": null,
+      "stock_quantity": 0,
+      "unit": "kg",
+      "description": "Snack khoai tây vị tự nhiên Classic Lay's gói 53g là một sản phẩm snack nổi bật hàng đầu của thương hiệu Lays mang một hương vị cổ điển bởi đơn giản chỉ là sự kết hợp giữa khoai tây và gia vị đơn thuần, thơm ngon độc đáo. Snack Lay's được rất nhiều bạn trẻ đón nhận và sử dụng cho nhiều hoạt động.\r\nLoại bánh\t\r\nSnack khoai tây vị tự nhiên\r\nKhối lượng\t\r\n53g\r\nNăng lượng\t\r\n170 kcal/30g\r\nThành phần\t\r\nKhoai tây, dầu cọ, bột gia vị khoai tây 4,2% (tinh bột, muối, đường, chất điều vị (E621, E627, E631), bột sữa whey, chất chống đông vón E551, hương liệu tự nhiên và giống tự nhiên, chất ổn định (E414, E415, E339ii))\r\nKhuyên dùng\t\r\nKhông dùng cho trẻ dưới 1 tuổi\r\nBảo quản\t\r\nBảo quản nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp\r\nThương hiệu\t\r\nLay's (Mỹ)\r\nNơi sản xuất\t\r\nViệt Nam",
+      "image": "products/snack-poca-khoai-tay-tu-nhien-goi-52g_202510150941133229.jpg",
+      "is_active": true,
+      "created_at": "2026-03-13T02:42:11.396Z",
+      "updated_at": "2026-03-19T08:13:28.046Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 11,
+    "fields": {
+      "category": 11,
+      "name": "Snack khoai tây vị sườn nướng BBQ Brazil Lay's gói 53g",
+      "sku": null,
+      "price": "12000",
+      "discount_price": null,
+      "stock_quantity": 0,
+      "unit": "kg",
+      "description": "",
+      "image": "products/snack-poca-khoai-tay-suon-nuong-52g_202509241620353293.jpg",
+      "is_active": true,
+      "created_at": "2026-03-13T02:46:13.441Z",
+      "updated_at": "2026-03-26T04:20:43.892Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 12,
+    "fields": {
+      "category": 12,
+      "name": "Thùng 24 chai nước khoáng La Vie 500ml vị dịu nhẹ",
+      "sku": null,
+      "price": "75000",
+      "discount_price": "118000.00",
+      "stock_quantity": 20,
+      "unit": "Thùng",
+      "description": "Thùng 24 chai nước khoáng La Vie vị dịu nhẹ 500ml là sự kết hợp hoàn hảo giữa vị nước dịu nhẹ và sự bổ sung khoáng chất thiên nhiên, tạo nên một lựa chọn tuyệt vời để giữ cơ thể khỏe mạnh và cảm nhận sự sảng khoái mỗi ngày.\r\nThương hiệu\t\r\nLa Vie (Việt Nam)\r\nSản xuất tại\t\r\n-\r\nLoại sản phẩm\t\r\nNước khoáng\r\nLoại nước\t\r\nNước chứa khoáng thiên nhiên\r\nNước được sản xuất từ\t\r\nThiên nhiên\r\nThành phần\t\r\nNước uống\r\nSố lượng\t\r\nThùng 24 chai vị dịu nhẹ\r\nThể tích\t\r\n500ml\r\nHướng dẫn sử dụng\t\r\nDùng uống trực tiếp\r\nBảo quàn\t\r\nBảo quản nơi sạch sẽ, khô ráo thoáng mát, tránh ánh nắng trực tiếp, mùi mạnh hoặc các loại hóa chất\r\nĐiểm nổi bật\t\r\nSản phẩm nhận được sự yêu thích từ 97% người dùng với hương vị tuyệt vời. Giúp cơ thể được bổ sung 4 loại khoáng chất thiết yếu (Ca, Mg, Na, HCo) hoàn toàn từ thiên nhiên giúp thanh lọc cơ thể hiệu quả, hỗ trợ quá trình trao đổi chất và tăng cường sức đề kháng.",
+      "image": "products/324823_202411121052010188.jpg",
+      "is_active": true,
+      "created_at": "2026-03-13T02:54:11.214Z",
+      "updated_at": "2026-03-13T02:54:21.545Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 13,
+    "fields": {
+      "category": 16,
+      "name": "2 hộp trứng vịt hộp 10 quả từ 600g-700g",
+      "sku": null,
+      "price": "60000",
+      "discount_price": null,
+      "stock_quantity": 48,
+      "unit": "Hộp",
+      "description": "",
+      "image": "products/trung-vit-hop-10-qua-tu-600g-700g-giao-ngau-nhien-thuong-hieu-clone_202510301504412244.jpg",
+      "is_active": true,
+      "created_at": "2026-03-13T08:00:00.405Z",
+      "updated_at": "2026-03-19T07:48:47.069Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 14,
+    "fields": {
+      "category": 16,
+      "name": "Trứng vịt muối hộp 4 quả từ 240g-280g",
+      "sku": null,
+      "price": "25000",
+      "discount_price": null,
+      "stock_quantity": 10,
+      "unit": "Hộp",
+      "description": "",
+      "image": "products/trung-vit-muoi-hop-4-qua-202307211532125494.jpg",
+      "is_active": true,
+      "created_at": "2026-03-13T08:00:39.432Z",
+      "updated_at": "2026-03-26T02:41:39.427Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.cart",
+    "pk": 1,
+    "fields": {
+      "user": [
+        "nguyenvanb@gmail.com"
+      ],
+      "created_at": "2026-03-13T03:26:29.129Z",
+      "updated_at": "2026-03-13T03:26:29.129Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.cart",
+    "pk": 2,
+    "fields": {
+      "user": [
+        "nger@gmail.com"
+      ],
+      "created_at": "2026-03-13T04:02:12.563Z",
+      "updated_at": "2026-03-13T04:02:12.563Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.cart",
+    "pk": 3,
+    "fields": {
+      "user": [
+        "nguyenthi@gmail.com"
+      ],
+      "created_at": "2026-03-26T06:33:52.070Z",
+      "updated_at": "2026-03-26T06:33:52.070Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.cart",
+    "pk": 4,
+    "fields": {
+      "user": [
+        "nnnn@gmail.com"
+      ],
+      "created_at": "2026-03-26T06:52:40.877Z",
+      "updated_at": "2026-03-26T06:52:40.877Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.cart",
+    "pk": 5,
+    "fields": {
+      "user": [
+        "ngerhello@gmail.com"
+      ],
+      "created_at": "2026-03-31T02:59:36.552Z",
+      "updated_at": "2026-03-31T02:59:36.552Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.order",
+    "pk": 57,
+    "fields": {
+      "user": [
+        "nger@gmail.com"
+      ],
+      "order_code": "ORD-FD1F2199",
+      "receiver_name": "Nguyễn B",
+      "receiver_phone": "0359968777",
+      "address_text": "Tăng nhơn phú, Thủ Đức, TP. Hồ Chí Minh",
+      "subtotal": "430500.00",
+      "shipping_fee": "103690.00",
+      "total_amount": "534190.00",
+      "status": "CANCELLED",
+      "created_at": "2026-03-26T03:43:06.520Z",
+      "delivery_lat": "10.827973",
+      "delivery_lng": "106.788136",
+      "distance_km": "20.74",
+      "delete_at": null,
+      "delete_by": null,
+      "updated_at": "2026-03-26T03:43:06.520Z"
+    }
+  },
+  {
+    "model": "store.order",
+    "pk": 58,
+    "fields": {
+      "user": [
+        "nguyenvanb@gmail.com"
+      ],
+      "order_code": "ORD-DA534645",
+      "receiver_name": "Nguyễn Trúc Trường",
+      "receiver_phone": "0337050902",
+      "address_text": "133/45, Đỗ Xuân Hợp, Thủ Đức, TP Hồ Chí Minh",
+      "subtotal": "130900.00",
+      "shipping_fee": "92470.00",
+      "total_amount": "223370.00",
+      "status": "CANCELLED",
+      "created_at": "2026-03-26T04:06:14.219Z",
+      "delivery_lat": "10.829650",
+      "delivery_lng": "106.770225",
+      "distance_km": "18.49",
+      "delete_at": "2026-03-26T04:19:29.828Z",
+      "delete_by": [
+        "admin"
+      ],
+      "updated_at": "2026-03-26T04:06:14.219Z"
+    }
+  },
+  {
+    "model": "store.order",
+    "pk": 59,
+    "fields": {
+      "user": [
+        "nger@gmail.com"
+      ],
+      "order_code": "ORD-C3938A5B",
+      "receiver_name": "Nguyễn B",
+      "receiver_phone": "0359968777",
+      "address_text": "Tăng nhơn phú, Thủ Đức, TP. Hồ Chí Minh",
+      "subtotal": "400000.00",
+      "shipping_fee": "103690.00",
+      "total_amount": "503690.00",
+      "status": "CONFIRMED",
+      "created_at": "2026-03-26T04:17:06.170Z",
+      "delivery_lat": "10.827973",
+      "delivery_lng": "106.788136",
+      "distance_km": "20.74",
+      "delete_at": null,
+      "delete_by": null,
+      "updated_at": "2026-03-26T04:17:06.170Z"
+    }
+  },
+  {
+    "model": "store.order",
+    "pk": 60,
+    "fields": {
+      "user": [
+        "nger@gmail.com"
+      ],
+      "order_code": "ORD-77292A69",
+      "receiver_name": "Nguyễn B",
+      "receiver_phone": "0359968777",
+      "address_text": "Tăng nhơn phú, Thủ Đức, TP. Hồ Chí Minh",
+      "subtotal": "209700.00",
+      "shipping_fee": "103690.00",
+      "total_amount": "313390.00",
+      "status": "SHIPPING",
+      "created_at": "2026-03-26T04:20:43.885Z",
+      "delivery_lat": "10.827973",
+      "delivery_lng": "106.788136",
+      "distance_km": "20.74",
+      "delete_at": null,
+      "delete_by": null,
+      "updated_at": "2026-03-26T04:20:43.885Z"
+    }
+  },
+  {
+    "model": "store.order",
+    "pk": 61,
+    "fields": {
+      "user": [
+        "nguyenthi@gmail.com"
+      ],
+      "order_code": "ORD-F03235CB",
+      "receiver_name": "Nguyễn P",
+      "receiver_phone": "0359926666",
+      "address_text": "Bến Nghé, Quận 1, Hồ Chí Minh",
+      "subtotal": "822500.00",
+      "shipping_fee": "48005.00",
+      "total_amount": "870505.00",
+      "status": "CANCELLED",
+      "created_at": "2026-03-26T07:13:54.390Z",
+      "delivery_lat": "10.781149",
+      "delivery_lng": "106.705269",
+      "distance_km": "9.60",
+      "delete_at": null,
+      "delete_by": null,
+      "updated_at": "2026-03-26T07:13:54.390Z"
+    }
+  },
+  {
+    "model": "store.order",
+    "pk": 62,
+    "fields": {
+      "user": [
+        "nger@gmail.com"
+      ],
+      "order_code": "ORD-FAC986DF",
+      "receiver_name": "Nguyễn B",
+      "receiver_phone": "0359968777",
+      "address_text": "Tăng nhơn phú, Thủ Đức, TP. Hồ Chí Minh",
+      "subtotal": "268500.00",
+      "shipping_fee": "103690.00",
+      "total_amount": "372190.00",
+      "status": "PENDING",
+      "created_at": "2026-03-26T07:16:48.382Z",
+      "delivery_lat": "10.827973",
+      "delivery_lng": "106.788136",
+      "distance_km": "20.74",
+      "delete_at": null,
+      "delete_by": null,
+      "updated_at": "2026-03-26T07:16:48.382Z"
+    }
+  },
+  {
+    "model": "store.order",
+    "pk": 63,
+    "fields": {
+      "user": [
+        "nger@gmail.com"
+      ],
+      "order_code": "ORD-48E98860",
+      "receiver_name": "Nguyễn B",
+      "receiver_phone": "0359968777",
+      "address_text": "Tăng nhơn phú, Thủ Đức, TP. Hồ Chí Minh",
+      "subtotal": "268500.00",
+      "shipping_fee": "103690.00",
+      "total_amount": "372190.00",
+      "status": "CANCELLED",
+      "created_at": "2026-03-26T07:50:05.362Z",
+      "delivery_lat": "10.827973",
+      "delivery_lng": "106.788136",
+      "distance_km": "20.74",
+      "delete_at": null,
+      "delete_by": null,
+      "updated_at": "2026-03-26T07:50:05.362Z"
+    }
+  },
+  {
+    "model": "store.order",
+    "pk": 64,
+    "fields": {
+      "user": [
+        "nger@gmail.com"
+      ],
+      "order_code": "ORD-80A15CC7",
+      "receiver_name": "Nguyễn B",
+      "receiver_phone": "0359968777",
+      "address_text": "Tăng nhơn phú, Thủ Đức, TP. Hồ Chí Minh",
+      "subtotal": "268500.00",
+      "shipping_fee": "103690.00",
+      "total_amount": "372190.00",
+      "status": "CANCELLED",
+      "created_at": "2026-03-26T07:51:51.474Z",
+      "delivery_lat": "10.827973",
+      "delivery_lng": "106.788136",
+      "distance_km": "20.74",
+      "delete_at": null,
+      "delete_by": null,
+      "updated_at": "2026-03-26T07:51:51.474Z"
+    }
+  },
+  {
+    "model": "store.order",
+    "pk": 65,
+    "fields": {
+      "user": [
+        "nguyenthi@gmail.com"
+      ],
+      "order_code": "ORD-43007E32",
+      "receiver_name": "Nguyễn P",
+      "receiver_phone": "0359926666",
+      "address_text": "Bến Nghé, Quận 1, Hồ Chí Minh",
+      "subtotal": "268500.00",
+      "shipping_fee": "48005.00",
+      "total_amount": "316505.00",
+      "status": "CANCELLED",
+      "created_at": "2026-03-26T07:56:12.520Z",
+      "delivery_lat": "10.781149",
+      "delivery_lng": "106.705269",
+      "distance_km": "9.60",
+      "delete_at": null,
+      "delete_by": null,
+      "updated_at": "2026-03-26T07:56:12.520Z"
+    }
+  },
+  {
+    "model": "store.order",
+    "pk": 66,
+    "fields": {
+      "user": [
+        "nger@gmail.com"
+      ],
+      "order_code": "ORD-B319C5B3",
+      "receiver_name": "Nguyễn B",
+      "receiver_phone": "0359968777",
+      "address_text": "Tăng nhơn phú, Thủ Đức, TP. Hồ Chí Minh",
+      "subtotal": "268500.00",
+      "shipping_fee": "103690.00",
+      "total_amount": "372190.00",
+      "status": "CANCELLED",
+      "created_at": "2026-03-26T08:05:32.099Z",
+      "delivery_lat": "10.827973",
+      "delivery_lng": "106.788136",
+      "distance_km": "20.74",
+      "delete_at": null,
+      "delete_by": null,
+      "updated_at": "2026-03-26T08:05:32.099Z"
+    }
+  },
+  {
+    "model": "store.order",
+    "pk": 67,
+    "fields": {
+      "user": [
+        "nguyenthi@gmail.com"
+      ],
+      "order_code": "ORD-E21D8DDC",
+      "receiver_name": "Nguyễn P",
+      "receiver_phone": "0359926666",
+      "address_text": "Bến Nghé, Quận 1, Hồ Chí Minh",
+      "subtotal": "268500.00",
+      "shipping_fee": "48005.00",
+      "total_amount": "316505.00",
+      "status": "CANCELLED",
+      "created_at": "2026-03-26T08:07:30.539Z",
+      "delivery_lat": "10.781149",
+      "delivery_lng": "106.705269",
+      "distance_km": "9.60",
+      "delete_at": null,
+      "delete_by": null,
+      "updated_at": "2026-03-26T08:07:30.539Z"
+    }
+  },
+  {
+    "model": "store.order",
+    "pk": 68,
+    "fields": {
+      "user": [
+        "nguyenthi@gmail.com"
+      ],
+      "order_code": "ORD-A5CCE8BB",
+      "receiver_name": "Nguyễn P",
+      "receiver_phone": "0359926666",
+      "address_text": "Bến Nghé, Quận 1, Hồ Chí Minh",
+      "subtotal": "268500.00",
+      "shipping_fee": "48005.00",
+      "total_amount": "316505.00",
+      "status": "CANCELLED",
+      "created_at": "2026-03-26T08:11:09.221Z",
+      "delivery_lat": "10.781149",
+      "delivery_lng": "106.705269",
+      "distance_km": "9.60",
+      "delete_at": null,
+      "delete_by": null,
+      "updated_at": "2026-03-26T08:11:09.221Z"
+    }
+  },
+  {
+    "model": "store.order",
+    "pk": 69,
+    "fields": {
+      "user": [
+        "ngerhello@gmail.com"
+      ],
+      "order_code": "ORD-8089A674",
+      "receiver_name": "Hellobe",
+      "receiver_phone": "0358845968",
+      "address_text": "Hẻm 294/84 Xô Viết Nghệ Tĩnh, Phường 21, Bình Thạnh, Hồ Chí Minh",
+      "subtotal": "268500.00",
+      "shipping_fee": "50690.00",
+      "total_amount": "319190.00",
+      "status": "CONFIRMED",
+      "created_at": "2026-03-31T06:08:25.706Z",
+      "delivery_lat": "10.799192",
+      "delivery_lng": "106.713982",
+      "distance_km": "10.14",
+      "delete_at": null,
+      "delete_by": null,
+      "updated_at": "2026-03-31T06:08:25.706Z"
+    }
+  },
+  {
+    "model": "store.order",
+    "pk": 70,
+    "fields": {
+      "user": [
+        "ngerhello@gmail.com"
+      ],
+      "order_code": "ORD-4947714F",
+      "receiver_name": "Nguyễn H",
+      "receiver_phone": "0359948596",
+      "address_text": "Bến Nghé, Quận 1, Hồ Chí Minh",
+      "subtotal": "3645000.00",
+      "shipping_fee": "48005.00",
+      "total_amount": "3693005.00",
+      "status": "PENDING",
+      "created_at": "2026-03-31T06:12:46.860Z",
+      "delivery_lat": "10.781149",
+      "delivery_lng": "106.705269",
+      "distance_km": "9.60",
+      "delete_at": null,
+      "delete_by": null,
+      "updated_at": "2026-03-31T06:12:46.860Z"
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 88,
+    "fields": {
+      "order": 57,
+      "product": 8,
+      "product_name_snapshot": "Trứng gà hộp 10 quả",
+      "unit_price": "27000.00",
+      "quantity": 6,
+      "subtotal": "162000.00",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 89,
+    "fields": {
+      "order": 57,
+      "product": 7,
+      "product_name_snapshot": "Ba rọi heo C.P",
+      "unit_price": "53700.00",
+      "quantity": 5,
+      "subtotal": "268500.00",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 90,
+    "fields": {
+      "order": 58,
+      "product": 1,
+      "product_name_snapshot": "Kẹo dẻo hương hỗn hợp Chupa Chups 5 Mix gói 90g",
+      "unit_price": "23500.00",
+      "quantity": 1,
+      "subtotal": "23500.00",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 91,
+    "fields": {
+      "order": 58,
+      "product": 7,
+      "product_name_snapshot": "Ba rọi heo C.P",
+      "unit_price": "53700.00",
+      "quantity": 2,
+      "subtotal": "107400.00",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 92,
+    "fields": {
+      "order": 59,
+      "product": 9,
+      "product_name_snapshot": "Combo 2 hộp trứng gà hộp 10 quả",
+      "unit_price": "50000.00",
+      "quantity": 8,
+      "subtotal": "400000.00",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 93,
+    "fields": {
+      "order": 60,
+      "product": 11,
+      "product_name_snapshot": "Snack khoai tây vị sườn nướng BBQ Brazil Lay's gói 53g",
+      "unit_price": "12000.00",
+      "quantity": 13,
+      "subtotal": "156000.00",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 94,
+    "fields": {
+      "order": 60,
+      "product": 7,
+      "product_name_snapshot": "Ba rọi heo C.P",
+      "unit_price": "53700.00",
+      "quantity": 1,
+      "subtotal": "53700.00",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 95,
+    "fields": {
+      "order": 61,
+      "product": 1,
+      "product_name_snapshot": "Kẹo dẻo hương hỗn hợp Chupa Chups 5 Mix gói 90g",
+      "unit_price": "23500.00",
+      "quantity": 35,
+      "subtotal": "822500.00",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 96,
+    "fields": {
+      "order": 62,
+      "product": 7,
+      "product_name_snapshot": "Ba rọi heo C.P",
+      "unit_price": "53700.00",
+      "quantity": 5,
+      "subtotal": "268500.00",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 97,
+    "fields": {
+      "order": 63,
+      "product": 7,
+      "product_name_snapshot": "Ba rọi heo C.P",
+      "unit_price": "53700.00",
+      "quantity": 5,
+      "subtotal": "268500.00",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 98,
+    "fields": {
+      "order": 64,
+      "product": 7,
+      "product_name_snapshot": "Ba rọi heo C.P",
+      "unit_price": "53700.00",
+      "quantity": 5,
+      "subtotal": "268500.00",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 99,
+    "fields": {
+      "order": 65,
+      "product": 7,
+      "product_name_snapshot": "Ba rọi heo C.P",
+      "unit_price": "53700.00",
+      "quantity": 5,
+      "subtotal": "268500.00",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 100,
+    "fields": {
+      "order": 66,
+      "product": 7,
+      "product_name_snapshot": "Ba rọi heo C.P",
+      "unit_price": "53700.00",
+      "quantity": 5,
+      "subtotal": "268500.00",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 101,
+    "fields": {
+      "order": 67,
+      "product": 7,
+      "product_name_snapshot": "Ba rọi heo C.P",
+      "unit_price": "53700.00",
+      "quantity": 5,
+      "subtotal": "268500.00",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 102,
+    "fields": {
+      "order": 68,
+      "product": 7,
+      "product_name_snapshot": "Ba rọi heo C.P",
+      "unit_price": "53700.00",
+      "quantity": 5,
+      "subtotal": "268500.00",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 103,
+    "fields": {
+      "order": 69,
+      "product": 7,
+      "product_name_snapshot": "Ba rọi heo C.P",
+      "unit_price": "53700.00",
+      "quantity": 5,
+      "subtotal": "268500.00",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 104,
+    "fields": {
+      "order": 70,
+      "product": 4,
+      "product_name_snapshot": "Thùng 24 lon nước ngọt Pepsi Cola Sleek 235ml",
+      "unit_price": "135000.00",
+      "quantity": 27,
+      "subtotal": "3645000.00",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.userprofile",
+    "pk": 1,
+    "fields": {
+      "user": [
+        "admin"
+      ],
+      "phone": "7894561230",
+      "avatar_url": ""
+    }
+  },
+  {
+    "model": "store.userprofile",
+    "pk": 2,
+    "fields": {
+      "user": [
+        "nguyenvana@gmail.com"
+      ],
+      "phone": "0901234567",
+      "avatar_url": ""
+    }
+  },
+  {
+    "model": "store.userprofile",
+    "pk": 3,
+    "fields": {
+      "user": [
+        "nguyenvanb@gmail.com"
+      ],
+      "phone": "0901234567",
+      "avatar_url": "avatars/Screenshot_2026-03-20_123149.png"
+    }
+  },
+  {
+    "model": "store.userprofile",
+    "pk": 4,
+    "fields": {
+      "user": [
+        "nguyenvanc@gmail.com"
+      ],
+      "phone": "0337050908",
+      "avatar_url": "avatars/unnamed-Photoroom_6DrJno0.png"
+    }
+  },
+  {
+    "model": "store.userprofile",
+    "pk": 5,
+    "fields": {
+      "user": [
+        "nguyenvanqqqqq@gmail.com"
+      ],
+      "phone": "0337050907",
+      "avatar_url": ""
+    }
+  },
+  {
+    "model": "store.userprofile",
+    "pk": 6,
+    "fields": {
+      "user": [
+        "nguyenvancho@gmail.com"
+      ],
+      "phone": "0316489518",
+      "avatar_url": ""
+    }
+  },
+  {
+    "model": "store.userprofile",
+    "pk": 7,
+    "fields": {
+      "user": [
+        "nger@gmail.com"
+      ],
+      "phone": "0344444444",
+      "avatar_url": "avatars/avatar-cropped-1774515703600.jpg"
+    }
+  },
+  {
+    "model": "store.userprofile",
+    "pk": 8,
+    "fields": {
+      "user": [
+        "nguyenabc@gmail.com"
+      ],
+      "phone": "0354475859",
+      "avatar_url": ""
+    }
+  },
+  {
+    "model": "store.userprofile",
+    "pk": 9,
+    "fields": {
+      "user": [
+        "helloB@gmail.com"
+      ],
+      "phone": "0356621942",
+      "avatar_url": ""
+    }
+  },
+  {
+    "model": "store.userprofile",
+    "pk": 10,
+    "fields": {
+      "user": [
+        "nguyenthiC@gmail.com"
+      ],
+      "phone": "0357789283",
+      "avatar_url": ""
+    }
+  },
+  {
+    "model": "store.userprofile",
+    "pk": 11,
+    "fields": {
+      "user": [
+        "anhxc@gmail.com"
+      ],
+      "phone": "0359923456",
+      "avatar_url": ""
+    }
+  },
+  {
+    "model": "store.userprofile",
+    "pk": 12,
+    "fields": {
+      "user": [
+        "ngerersr@gmail.com"
+      ],
+      "phone": "0358834567",
+      "avatar_url": ""
+    }
+  },
+  {
+    "model": "store.userprofile",
+    "pk": 13,
+    "fields": {
+      "user": [
+        "nguyenthi@gmail.com"
+      ],
+      "phone": "0359962128",
+      "avatar_url": "avatars/avatar-cropped-1774507584682.jpg"
+    }
+  },
+  {
+    "model": "store.userprofile",
+    "pk": 14,
+    "fields": {
+      "user": [
+        "abc@gmail.com"
+      ],
+      "phone": "0354475899",
+      "avatar_url": ""
+    }
+  },
+  {
+    "model": "store.userprofile",
+    "pk": 15,
+    "fields": {
+      "user": [
+        "huhuhu@gmail.com"
+      ],
+      "phone": "0356647890",
+      "avatar_url": ""
+    }
+  },
+  {
+    "model": "store.userprofile",
+    "pk": 16,
+    "fields": {
+      "user": [
+        "nnnn@gmail.com"
+      ],
+      "phone": "0356637777",
+      "avatar_url": ""
+    }
+  },
+  {
+    "model": "store.userprofile",
+    "pk": 17,
+    "fields": {
+      "user": [
+        "ngerhello@gmail.com"
+      ],
+      "phone": "0358845968",
+      "avatar_url": ""
+    }
+  },
+  {
+    "model": "store.banner",
+    "pk": 1,
+    "fields": {
+      "title": "Sale lương về",
+      "image": "banners/freecompress-trang-chu-moi-pc_202603040929215156.jpg",
+      "link": "/category",
+      "is_active": true,
+      "display_order": 0,
+      "created_at": "2026-03-17T06:56:58.546Z",
+      "updated_at": "2026-03-17T06:56:58.546Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.banner",
+    "pk": 2,
+    "fields": {
+      "title": "sale nước",
+      "image": "banners/trang-chu-moi-pc_202603121643433997.jpg",
+      "link": null,
+      "is_active": true,
+      "display_order": 0,
+      "created_at": "2026-03-17T07:19:02.245Z",
+      "updated_at": "2026-03-17T07:19:02.245Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.banner",
+    "pk": 3,
+    "fields": {
+      "title": "sale thịt",
+      "image": "banners/freecompress-trang-chu-moi-pc_202602101625424140.jpg",
+      "link": null,
+      "is_active": true,
+      "display_order": 0,
+      "created_at": "2026-03-17T07:19:25.872Z",
+      "updated_at": "2026-03-17T07:19:25.872Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.address",
+    "pk": 1,
+    "fields": {
+      "user": [
+        "nguyenvanb@gmail.com"
+      ],
+      "full_name": "Nguyễn Văn A",
+      "phone": "0901234567",
+      "province": "TP. Hồ Chí Minh",
+      "district": "Quận 1",
+      "street": "125 Nguyễn Hoa",
+      "note": "giao lúc 11h giúp em",
+      "is_default": false,
+      "lat": null,
+      "lng": null,
+      "created_at": "2026-03-19T09:17:14.749Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.address",
+    "pk": 3,
+    "fields": {
+      "user": [
+        "nger@gmail.com"
+      ],
+      "full_name": "Nguyễn B",
+      "phone": "0359968777",
+      "province": "TP. Hồ Chí Minh",
+      "district": "Thủ Đức",
+      "street": "Tăng nhơn phú",
+      "note": "",
+      "is_default": true,
+      "lat": null,
+      "lng": null,
+      "created_at": "2026-03-19T10:11:39.814Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.address",
+    "pk": 5,
+    "fields": {
+      "user": [
+        "nguyenvanb@gmail.com"
+      ],
+      "full_name": "Nguyễn Trúc Trường",
+      "phone": "0337050902",
+      "province": "TP Hồ Chí Minh",
+      "district": "Thủ Đức",
+      "street": "133/45, Đỗ Xuân Hợp",
+      "note": "giao tầm 11h trưa",
+      "is_default": true,
+      "lat": null,
+      "lng": null,
+      "created_at": "2026-03-20T06:53:01.781Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.address",
+    "pk": 8,
+    "fields": {
+      "user": [
+        "nger@gmail.com"
+      ],
+      "full_name": "appppppaa",
+      "phone": "0358869999",
+      "province": "Đồng Nai",
+      "district": "Vĩnh Cửu",
+      "street": "Phú Lý",
+      "note": "",
+      "is_default": false,
+      "lat": null,
+      "lng": null,
+      "created_at": "2026-03-20T08:56:47.642Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.address",
+    "pk": 9,
+    "fields": {
+      "user": [
+        "nger@gmail.com"
+      ],
+      "full_name": "ooopopoppopopo",
+      "phone": "0357777777",
+      "province": "Hồ Chí Minh",
+      "district": "Tân Bình",
+      "street": "Phường 13",
+      "note": "",
+      "is_default": false,
+      "lat": null,
+      "lng": null,
+      "created_at": "2026-03-20T09:02:13.612Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.address",
+    "pk": 10,
+    "fields": {
+      "user": [
+        "nguyenthi@gmail.com"
+      ],
+      "full_name": "Nguyễn P",
+      "phone": "0359926666",
+      "province": "Hồ Chí Minh",
+      "district": "Quận 1",
+      "street": "Bến Nghé",
+      "note": "",
+      "is_default": false,
+      "lat": null,
+      "lng": null,
+      "created_at": "2026-03-26T07:12:25.214Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "store.address",
+    "pk": 11,
+    "fields": {
+      "user": [
+        "ngerhello@gmail.com"
+      ],
+      "full_name": "Nguyễn H",
+      "phone": "0359948596",
+      "province": "Hồ Chí Minh",
+      "district": "Quận 1",
+      "street": "Bến Nghé",
+      "note": "",
+      "is_default": false,
+      "lat": null,
+      "lng": null,
+      "created_at": "2026-03-31T06:11:44.750Z",
+      "delete_at": null,
+      "delete_by": null
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2026-03-06T08:08:29.886Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "1",
+      "object_repr": "Nước giải khát",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2026-03-12T04:27:02.211Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "2",
+      "object_repr": "Bánh kẹo",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2026-03-12T04:27:16.144Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "2",
+      "object_repr": "Bánh kẹo",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2026-03-12T04:30:29.892Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "2",
+      "object_repr": "Bánh kẹo",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2026-03-12T04:30:34.065Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "2",
+      "object_repr": "Bánh kẹo",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2026-03-12T04:31:13.033Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "2",
+      "object_repr": "Bánh kẹo",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2026-03-12T04:49:34.770Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "2",
+      "object_repr": "Bánh kẹo",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2026-03-12T04:50:02.278Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "2",
+      "object_repr": "Bánh kẹo",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2026-03-12T06:10:15.427Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "2",
+      "object_repr": "Bánh kẹo",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2026-03-12T06:35:50.631Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "1",
+      "object_repr": "Nước giải khát",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2026-03-12T07:13:25.030Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "1",
+      "object_repr": "Kẹo dẻo hương hỗn hợp Chupa Chups 5 Mix gói 90g",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2026-03-12T07:19:17.591Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "2",
+      "object_repr": "Kẹo mềm hương trái cây Alpenliebe 2Chew gói 84g",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2026-03-12T07:21:22.974Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "2",
+      "object_repr": "Kẹo mềm hương trái cây Alpenliebe 2Chew gói 84g",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2026-03-12T07:21:56.229Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "3",
+      "object_repr": "Kẹo mềm hương trái cây Sugus gói 210g",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2026-03-12T07:24:55.904Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "4",
+      "object_repr": "Thùng 24 lon nước ngọt Pepsi Cola Sleek 235ml",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2026-03-12T08:07:44.215Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "3",
+      "object_repr": "Thịt, cá, trứng, hải sản",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2026-03-12T08:31:06.502Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "4",
+      "object_repr": "Thịt heo",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2026-03-12T08:31:12.676Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "3",
+      "object_repr": "Thịt, cá, trứng, hải sản",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Parent\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2026-03-12T08:31:55.918Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "4",
+      "object_repr": "Thịt heo",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2026-03-12T08:32:26.129Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "4",
+      "object_repr": "Thịt heo",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Parent\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2026-03-12T08:32:35.276Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "3",
+      "object_repr": "Thịt, cá, trứng, hải sản",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Parent\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2026-03-12T08:37:09.534Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "4",
+      "object_repr": "Thịt heo",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2026-03-12T08:38:34.939Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "5",
+      "object_repr": "Thị bò",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2026-03-12T08:40:33.332Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "5",
+      "object_repr": "Sườn que heo nhập khẩu 500g",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2026-03-12T08:42:23.904Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "6",
+      "object_repr": "Nạm bò 150g",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2026-03-12T09:13:19.112Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "6",
+      "object_repr": "Trứng",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2026-03-12T09:15:16.352Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "6",
+      "object_repr": "Trứng",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2026-03-12T09:15:40.597Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "7",
+      "object_repr": "Hải sản",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2026-03-12T09:15:49.549Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "7",
+      "object_repr": "Hải sản",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2026-03-12T09:25:41.738Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "8",
+      "object_repr": "Ba rọi",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2026-03-12T09:25:52.999Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "8",
+      "object_repr": "Ba rọi",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2026-03-12T09:30:26.896Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "7",
+      "object_repr": "Ba rọi heo C.P",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2026-03-12T10:01:17.507Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "9",
+      "object_repr": "Sườn",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2026-03-12T10:01:30.077Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "9",
+      "object_repr": "Sườn",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Parent\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2026-03-12T10:02:32.974Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "10",
+      "object_repr": "Đùi bò",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2026-03-13T02:27:23.163Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "8",
+      "object_repr": "1/14 Hình ảnh sản phẩm Thông tin sản phẩm Nguyên liệu nấu cùng Trứng ốp la Trứng ốp la Trứng ốp la Mì trứng Mì trứng Trứng chiên Trứng chiên Trứng gà tươi hộp 10 quả Trứng gà tươi hộp 10",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2026-03-13T02:28:10.031Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "8",
+      "object_repr": "1/14 Hình ảnh sản phẩm Thông tin sản phẩm Nguyên liệu nấu cùng Trứng ốp la Trứng ốp la Trứng ốp la Mì trứng Mì trứng Trứng chiên Trứng chiên Trứng gà tươi hộp 10 quả Trứng gà tươi hộp 10",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2026-03-13T02:30:20.455Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "8",
+      "object_repr": "Trứng gà hộp 10 quả",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2026-03-13T02:37:27.698Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "9",
+      "object_repr": "Combo 2 hộp trứng gà hộp 10 quả",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+      "action_time": "2026-03-13T02:38:21.237Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "11",
+      "object_repr": "Bánh",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+      "action_time": "2026-03-13T02:40:40.649Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "11",
+      "object_repr": "Bánh snack",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+      "action_time": "2026-03-13T02:42:11.398Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "10",
+      "object_repr": "Snack khoai tây vị tự nhiên Lay's Classic gói 53g",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+      "action_time": "2026-03-13T02:42:38.804Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "10",
+      "object_repr": "Snack khoai tây vị tự nhiên Lay's Classic gói 53g",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+      "action_time": "2026-03-13T02:46:13.444Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "11",
+      "object_repr": "Snack khoai tây vị sườn nướng BBQ Brazil Lay's gói 53g",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+      "action_time": "2026-03-13T02:46:27.376Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "11",
+      "object_repr": "Snack khoai tây vị sườn nướng BBQ Brazil Lay's gói 53g",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+      "action_time": "2026-03-13T02:51:41.434Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "12",
+      "object_repr": "Nước suối",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+      "action_time": "2026-03-13T02:54:11.216Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "12",
+      "object_repr": "Thùng 24 chai nước khoáng La Vie 500ml vị dịu nhẹ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+      "action_time": "2026-03-13T02:54:21.551Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "12",
+      "object_repr": "Thùng 24 chai nước khoáng La Vie 500ml vị dịu nhẹ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+      "action_time": "2026-03-13T03:23:05.791Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "13",
+      "object_repr": "Kẹo Dẻo & mềm",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+      "action_time": "2026-03-13T03:23:18.207Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "3",
+      "object_repr": "Kẹo mềm hương trái cây Sugus gói 210g",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+      "action_time": "2026-03-13T03:23:25.171Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "2",
+      "object_repr": "Kẹo mềm hương trái cây Alpenliebe 2Chew gói 84g",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+      "action_time": "2026-03-13T03:23:31.666Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "1",
+      "object_repr": "Kẹo dẻo hương hỗn hợp Chupa Chups 5 Mix gói 90g",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+      "action_time": "2026-03-13T03:24:00.704Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "14",
+      "object_repr": "Nước ngọt",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+      "action_time": "2026-03-13T03:24:08.744Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "4",
+      "object_repr": "Thùng 24 lon nước ngọt Pepsi Cola Sleek 235ml",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+      "action_time": "2026-03-13T07:04:15.014Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "5",
+      "object_repr": "Sườn que heo nhập khẩu 500g",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+      "action_time": "2026-03-13T07:05:49.061Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "6",
+      "object_repr": "Nạm bò 150g",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+      "action_time": "2026-03-13T07:49:40.255Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "6",
+      "object_repr": "Nạm bò 150g",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+      "action_time": "2026-03-13T07:49:52.869Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "7",
+      "object_repr": "Ba rọi heo C.P",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+      "action_time": "2026-03-13T07:50:33.017Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "5",
+      "object_repr": "Sườn que heo nhập khẩu 500g",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+      "action_time": "2026-03-13T07:54:49.698Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "15",
+      "object_repr": "Trứng gà",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+      "action_time": "2026-03-13T07:55:22.022Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "16",
+      "object_repr": "Trứng vịt",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+      "action_time": "2026-03-13T07:55:36.382Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "9",
+      "object_repr": "Combo 2 hộp trứng gà hộp 10 quả",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+      "action_time": "2026-03-13T07:55:43.873Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "8",
+      "object_repr": "Trứng gà hộp 10 quả",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+      "action_time": "2026-03-13T08:00:00.413Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "13",
+      "object_repr": "2 hộp trứng vịt hộp 10 quả từ 600g-700g",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+      "action_time": "2026-03-13T08:00:39.434Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "14",
+      "object_repr": "Trứng vịt muối hộp 4 quả từ 240g-280g",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+      "action_time": "2026-03-17T06:56:58.549Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "banner"
+      ],
+      "object_id": "1",
+      "object_repr": "Sale lương về",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+      "action_time": "2026-03-17T07:19:02.246Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "banner"
+      ],
+      "object_id": "2",
+      "object_repr": "sale nước",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+      "action_time": "2026-03-17T07:19:25.874Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "banner"
+      ],
+      "object_id": "3",
+      "object_repr": "sale thịt",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+      "action_time": "2026-03-19T03:30:25.702Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "17",
+      "object_repr": "Rau, củ,  trái cây",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+      "action_time": "2026-03-19T03:32:35.849Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "5",
+      "object_repr": "Thịt bò",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+      "action_time": "2026-03-19T03:32:40.193Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "18",
+      "object_repr": "Trái cây",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+      "action_time": "2026-03-19T03:33:26.229Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "19",
+      "object_repr": "Rau",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+      "action_time": "2026-03-19T03:34:04.568Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "20",
+      "object_repr": "Củ, quả",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+      "action_time": "2026-03-19T03:36:03.979Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "21",
+      "object_repr": "Chuối",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+      "action_time": "2026-03-19T03:37:56.228Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "22",
+      "object_repr": "Xoài",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+      "action_time": "2026-03-19T03:38:14.712Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "23",
+      "object_repr": "Táo",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+      "action_time": "2026-03-19T03:40:21.106Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "24",
+      "object_repr": "Kem, sữa chua",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+      "action_time": "2026-03-19T03:40:56.457Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "25",
+      "object_repr": "Kem",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+      "action_time": "2026-03-19T03:41:35.753Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "26",
+      "object_repr": "Sữa chua",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+      "action_time": "2026-03-19T03:42:43.642Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "27",
+      "object_repr": "Mì, cháo, phở",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+      "action_time": "2026-03-19T06:32:18.938Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "category"
+      ],
+      "object_id": "27",
+      "object_repr": "Mì, cháo, phở",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+      "action_time": "2026-03-19T07:40:01.573Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "13",
+      "object_repr": "2 hộp trứng vịt hộp 10 quả từ 600g-700g",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Stock quantity\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+      "action_time": "2026-03-19T08:13:28.047Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "10",
+      "object_repr": "Snack khoai tây vị tự nhiên Lay's Classic gói 53g",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+      "action_time": "2026-03-19T09:26:32.585Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "9",
+      "object_repr": "Combo 2 hộp trứng gà hộp 10 quả",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Stock quantity\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+      "action_time": "2026-03-19T09:26:51.283Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "14",
+      "object_repr": "Trứng vịt muối hộp 4 quả từ 240g-280g",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Stock quantity\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+      "action_time": "2026-03-19T09:38:53.590Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "6",
+      "object_repr": "Order object (6)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+      "action_time": "2026-03-19T09:39:00.488Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "6",
+      "object_repr": "Order object (6)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+      "action_time": "2026-03-19T09:39:09.415Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "6",
+      "object_repr": "Order object (6)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+      "action_time": "2026-03-19T09:39:20.785Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "6",
+      "object_repr": "Order object (6)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+      "action_time": "2026-03-19T09:39:41.345Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "5",
+      "object_repr": "Order object (5)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+      "action_time": "2026-03-19T09:39:49.012Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "5",
+      "object_repr": "Order object (5)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+      "action_time": "2026-03-20T03:21:06.904Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "userprofile"
+      ],
+      "object_id": "4",
+      "object_repr": "nguyenvanc@gmail.com",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Avatar url\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+      "action_time": "2026-03-20T06:51:25.716Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "27",
+      "object_repr": "Order object (27)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+      "action_time": "2026-03-20T06:51:34.356Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "26",
+      "object_repr": "Order object (26)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+      "action_time": "2026-03-20T06:51:49.607Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "25",
+      "object_repr": "Order object (25)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+      "action_time": "2026-03-20T06:51:58.896Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "24",
+      "object_repr": "Order object (24)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+      "action_time": "2026-03-20T06:53:32.427Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "7",
+      "object_repr": "Order object (7)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+      "action_time": "2026-03-20T07:01:31.894Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "27",
+      "object_repr": "Order object (27)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+      "action_time": "2026-03-20T07:08:34.586Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "27",
+      "object_repr": "Order object (27)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+      "action_time": "2026-03-20T07:08:34.586Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "26",
+      "object_repr": "Order object (26)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+      "action_time": "2026-03-20T07:08:34.586Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "25",
+      "object_repr": "Order object (25)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 102,
+    "fields": {
+      "action_time": "2026-03-20T07:08:34.586Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "24",
+      "object_repr": "Order object (24)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 103,
+    "fields": {
+      "action_time": "2026-03-20T07:08:34.586Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "23",
+      "object_repr": "Order object (23)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 104,
+    "fields": {
+      "action_time": "2026-03-20T07:08:34.586Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "22",
+      "object_repr": "Order object (22)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 105,
+    "fields": {
+      "action_time": "2026-03-20T07:08:34.586Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "21",
+      "object_repr": "Order object (21)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 106,
+    "fields": {
+      "action_time": "2026-03-20T07:08:34.586Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "20",
+      "object_repr": "Order object (20)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 107,
+    "fields": {
+      "action_time": "2026-03-20T07:08:34.586Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "19",
+      "object_repr": "Order object (19)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 108,
+    "fields": {
+      "action_time": "2026-03-20T07:08:34.586Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "18",
+      "object_repr": "Order object (18)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 109,
+    "fields": {
+      "action_time": "2026-03-20T07:08:34.587Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "17",
+      "object_repr": "Order object (17)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 110,
+    "fields": {
+      "action_time": "2026-03-20T07:08:34.587Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "16",
+      "object_repr": "Order object (16)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 111,
+    "fields": {
+      "action_time": "2026-03-20T07:08:34.587Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "15",
+      "object_repr": "Order object (15)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 112,
+    "fields": {
+      "action_time": "2026-03-20T07:08:34.587Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "14",
+      "object_repr": "Order object (14)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 113,
+    "fields": {
+      "action_time": "2026-03-20T07:08:34.587Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "13",
+      "object_repr": "Order object (13)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 114,
+    "fields": {
+      "action_time": "2026-03-20T07:08:34.587Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "12",
+      "object_repr": "Order object (12)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 115,
+    "fields": {
+      "action_time": "2026-03-20T07:08:34.587Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "11",
+      "object_repr": "Order object (11)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 116,
+    "fields": {
+      "action_time": "2026-03-20T07:08:34.587Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "10",
+      "object_repr": "Order object (10)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 117,
+    "fields": {
+      "action_time": "2026-03-20T07:08:34.587Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "9",
+      "object_repr": "Order object (9)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 118,
+    "fields": {
+      "action_time": "2026-03-20T07:08:34.587Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "8",
+      "object_repr": "Order object (8)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 119,
+    "fields": {
+      "action_time": "2026-03-20T07:08:34.587Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "7",
+      "object_repr": "Order object (7)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 120,
+    "fields": {
+      "action_time": "2026-03-20T07:08:34.587Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "6",
+      "object_repr": "Order object (6)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 121,
+    "fields": {
+      "action_time": "2026-03-20T07:08:34.587Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "5",
+      "object_repr": "Order object (5)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 122,
+    "fields": {
+      "action_time": "2026-03-20T07:08:34.587Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "4",
+      "object_repr": "Order object (4)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 123,
+    "fields": {
+      "action_time": "2026-03-20T07:08:34.587Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "3",
+      "object_repr": "Order object (3)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 124,
+    "fields": {
+      "action_time": "2026-03-20T07:08:34.587Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "2",
+      "object_repr": "Order object (2)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 125,
+    "fields": {
+      "action_time": "2026-03-20T07:08:34.587Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "1",
+      "object_repr": "Order object (1)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 126,
+    "fields": {
+      "action_time": "2026-03-20T07:10:48.275Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "33",
+      "object_repr": "Order object (33)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 127,
+    "fields": {
+      "action_time": "2026-03-20T07:11:04.562Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "33",
+      "object_repr": "Order object (33)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 128,
+    "fields": {
+      "action_time": "2026-03-20T07:11:17.766Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "33",
+      "object_repr": "Order object (33)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 129,
+    "fields": {
+      "action_time": "2026-03-20T07:12:03.498Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "33",
+      "object_repr": "Order object (33)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 130,
+    "fields": {
+      "action_time": "2026-03-20T07:12:36.521Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "33",
+      "object_repr": "Order object (33)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 131,
+    "fields": {
+      "action_time": "2026-03-20T07:12:36.521Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "32",
+      "object_repr": "Order object (32)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 132,
+    "fields": {
+      "action_time": "2026-03-20T07:12:36.521Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "31",
+      "object_repr": "Order object (31)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 133,
+    "fields": {
+      "action_time": "2026-03-20T07:12:36.521Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "30",
+      "object_repr": "Order object (30)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 134,
+    "fields": {
+      "action_time": "2026-03-20T07:12:36.521Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "29",
+      "object_repr": "Order object (29)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 135,
+    "fields": {
+      "action_time": "2026-03-20T07:12:36.521Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "28",
+      "object_repr": "Order object (28)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 136,
+    "fields": {
+      "action_time": "2026-03-20T07:29:29.132Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "34",
+      "object_repr": "Order object (34)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 137,
+    "fields": {
+      "action_time": "2026-03-20T07:30:18.737Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "34",
+      "object_repr": "Order object (34)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 138,
+    "fields": {
+      "action_time": "2026-03-20T07:30:28.914Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "34",
+      "object_repr": "Order object (34)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 139,
+    "fields": {
+      "action_time": "2026-03-20T07:30:38.385Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "34",
+      "object_repr": "Order object (34)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 140,
+    "fields": {
+      "action_time": "2026-03-20T07:30:45.912Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "34",
+      "object_repr": "Order object (34)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 141,
+    "fields": {
+      "action_time": "2026-03-20T07:53:06.812Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "36",
+      "object_repr": "Order object (36)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 142,
+    "fields": {
+      "action_time": "2026-03-20T07:53:48.777Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "36",
+      "object_repr": "Order object (36)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 143,
+    "fields": {
+      "action_time": "2026-03-20T07:54:16.291Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "36",
+      "object_repr": "Order object (36)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 144,
+    "fields": {
+      "action_time": "2026-03-20T08:49:08.031Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "36",
+      "object_repr": "Order object (36)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 145,
+    "fields": {
+      "action_time": "2026-03-20T08:49:08.031Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "35",
+      "object_repr": "Order object (35)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 146,
+    "fields": {
+      "action_time": "2026-03-20T08:49:08.031Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "34",
+      "object_repr": "Order object (34)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 147,
+    "fields": {
+      "action_time": "2026-03-24T07:27:57.953Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "5",
+      "object_repr": "Sườn que heo nhập khẩu 500g",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Stock quantity\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 148,
+    "fields": {
+      "action_time": "2026-03-24T07:40:21.853Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "5",
+      "object_repr": "Sườn que heo nhập khẩu 500g",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Stock quantity\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 149,
+    "fields": {
+      "action_time": "2026-03-24T07:53:10.358Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "5",
+      "object_repr": "Sườn que heo nhập khẩu 500g",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Stock quantity\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 150,
+    "fields": {
+      "action_time": "2026-03-24T07:58:01.104Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "5",
+      "object_repr": "Sườn que heo nhập khẩu 500g",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Is active\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 151,
+    "fields": {
+      "action_time": "2026-03-24T07:58:28.632Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "5",
+      "object_repr": "Sườn que heo nhập khẩu 500g",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Is active\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 152,
+    "fields": {
+      "action_time": "2026-03-26T03:16:00.532Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "51",
+      "object_repr": "Order object (51)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 153,
+    "fields": {
+      "action_time": "2026-03-26T03:16:00.533Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "50",
+      "object_repr": "Order object (50)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 154,
+    "fields": {
+      "action_time": "2026-03-26T03:16:00.533Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "49",
+      "object_repr": "Order object (49)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 155,
+    "fields": {
+      "action_time": "2026-03-26T03:16:00.533Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "48",
+      "object_repr": "Order object (48)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 156,
+    "fields": {
+      "action_time": "2026-03-26T03:16:00.533Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "47",
+      "object_repr": "Order object (47)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 157,
+    "fields": {
+      "action_time": "2026-03-26T03:16:00.533Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "43",
+      "object_repr": "Order object (43)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 158,
+    "fields": {
+      "action_time": "2026-03-26T03:16:00.533Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "39",
+      "object_repr": "Order object (39)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 159,
+    "fields": {
+      "action_time": "2026-03-26T03:16:00.533Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "38",
+      "object_repr": "Order object (38)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 160,
+    "fields": {
+      "action_time": "2026-03-26T03:16:00.533Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "37",
+      "object_repr": "Order object (37)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 161,
+    "fields": {
+      "action_time": "2026-03-26T03:17:17.588Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "52",
+      "object_repr": "Order object (52)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 162,
+    "fields": {
+      "action_time": "2026-03-26T03:33:18.015Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "53",
+      "object_repr": "Order object (53)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 163,
+    "fields": {
+      "action_time": "2026-03-26T03:33:26.023Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "54",
+      "object_repr": "Order object (54)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 164,
+    "fields": {
+      "action_time": "2026-03-26T03:33:39.331Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "55",
+      "object_repr": "Order object (55)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 165,
+    "fields": {
+      "action_time": "2026-03-26T03:41:17.691Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "56",
+      "object_repr": "Order object (56)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 166,
+    "fields": {
+      "action_time": "2026-03-26T03:41:17.691Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "55",
+      "object_repr": "Order object (55)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 167,
+    "fields": {
+      "action_time": "2026-03-26T03:41:17.691Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "54",
+      "object_repr": "Order object (54)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 168,
+    "fields": {
+      "action_time": "2026-03-26T03:41:17.691Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "53",
+      "object_repr": "Order object (53)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 169,
+    "fields": {
+      "action_time": "2026-03-26T03:41:17.691Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "52",
+      "object_repr": "Order object (52)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 170,
+    "fields": {
+      "action_time": "2026-03-26T03:52:22.051Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "57",
+      "object_repr": "Order object (57)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 171,
+    "fields": {
+      "action_time": "2026-03-26T04:06:49.039Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "58",
+      "object_repr": "Order object (58)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 172,
+    "fields": {
+      "action_time": "2026-03-26T04:07:23.682Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "58",
+      "object_repr": "Order object (58)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 173,
+    "fields": {
+      "action_time": "2026-03-26T04:07:37.891Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "58",
+      "object_repr": "Order object (58)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 174,
+    "fields": {
+      "action_time": "2026-03-26T04:07:43.375Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "58",
+      "object_repr": "Order object (58)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 175,
+    "fields": {
+      "action_time": "2026-03-26T04:17:50.188Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "59",
+      "object_repr": "Order object (59)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 176,
+    "fields": {
+      "action_time": "2026-03-26T04:22:54.566Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "60",
+      "object_repr": "Order object (60)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 177,
+    "fields": {
+      "action_time": "2026-03-26T04:23:36.419Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "57",
+      "object_repr": "Order object (57)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 178,
+    "fields": {
+      "action_time": "2026-03-26T07:23:52.225Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "7",
+      "object_repr": "Ba rọi heo C.P",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Stock quantity\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 179,
+    "fields": {
+      "action_time": "2026-03-26T07:51:09.960Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "7",
+      "object_repr": "Ba rọi heo C.P",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Stock quantity\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 180,
+    "fields": {
+      "action_time": "2026-03-26T07:52:36.411Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "7",
+      "object_repr": "Ba rọi heo C.P",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Stock quantity\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 181,
+    "fields": {
+      "action_time": "2026-03-26T07:53:08.601Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "7",
+      "object_repr": "Ba rọi heo C.P",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Stock quantity\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 182,
+    "fields": {
+      "action_time": "2026-03-26T08:02:58.749Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "7",
+      "object_repr": "Ba rọi heo C.P",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Stock quantity\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 183,
+    "fields": {
+      "action_time": "2026-03-26T08:04:24.688Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "7",
+      "object_repr": "Ba rọi heo C.P",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Stock quantity\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 184,
+    "fields": {
+      "action_time": "2026-03-26T08:07:04.669Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "7",
+      "object_repr": "Ba rọi heo C.P",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Stock quantity\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 185,
+    "fields": {
+      "action_time": "2026-03-26T08:10:32.884Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "7",
+      "object_repr": "Ba rọi heo C.P",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Stock quantity\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 186,
+    "fields": {
+      "action_time": "2026-03-26T08:14:37.572Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "product"
+      ],
+      "object_id": "7",
+      "object_repr": "Ba rọi heo C.P",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Stock quantity\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 187,
+    "fields": {
+      "action_time": "2026-03-27T09:25:21.071Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "auth",
+        "user"
+      ],
+      "object_id": "5",
+      "object_repr": "nguyenvanb@gmail.com",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 188,
+    "fields": {
+      "action_time": "2026-03-31T06:09:25.615Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "store",
+        "order"
+      ],
+      "object_id": "69",
+      "object_repr": "Order object (69)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  }
+]

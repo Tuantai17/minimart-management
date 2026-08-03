@@ -1,0 +1,13 @@
+# Agent folders
+.agent/
+.planning/
+
+# IDE configurations
+.vscode/
+.idea/
+
+# Git backups of subdirectories
+**/.git_backup/
+
+# Logs
+*.log

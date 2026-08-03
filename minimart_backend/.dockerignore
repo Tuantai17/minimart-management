@@ -1,0 +1,16 @@
+venv
+.git
+.gitignore
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.db.sqlite3
+.pytest_cache
+.vscode
+.idea
+moitruongao.txt
+
+.venv
+media
+datadump.json
