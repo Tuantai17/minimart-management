@@ -11,3 +11,15 @@
 
 # Logs
 *.log
+
+# Database dumps and local databases
+*.sql
+*.dump
+*.sqlite
+*.sqlite3
+
+# Environment secrets (keep templates)
+.env
+.env.*
+!.env.example
+!**/.env.example
