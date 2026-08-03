@@ -1,98 +1,263 @@
-# Supermarket BE
+# ⚙️ MiniMart Backend
 
+REST API và WebSocket server cho MiniMart, xây dựng bằng **Django 6**, **Django REST Framework**, **Channels/Daphne**, PostgreSQL và Redis.
 
+> Xem [README toàn hệ thống](../README.md) và [README frontend](../supermarket-fe/README.md).
 
-## Getting started
+## Chức năng
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+- JWT access/refresh/blacklist, đăng ký, Firebase Login, OTP quên mật khẩu.
+- Danh mục, sản phẩm, banner, tồn kho và crawler/import.
+- Giỏ hàng, đơn hàng, trạng thái giao hàng và đánh giá media.
+- Voucher: danh sách, nhận, áp dụng và kiểm soát lượt dùng.
+- VNPAY sandbox, IPN và kết quả thanh toán.
+- Hồ sơ, nhiều địa chỉ, reverse geocoding và phí vận chuyển.
+- Ticket/chat hỗ trợ realtime qua WebSocket.
+- FCM device registration và push notification.
+- Báo cáo doanh thu, sản phẩm bán chạy và Django Admin.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+## Kiến trúc thư mục
 
-## Add your files
-
-* [Create](https://docs.gitlab.com/user/project/repository/web_editor/#create-a-file) or [upload](https://docs.gitlab.com/user/project/repository/web_editor/#upload-a-file) files
-* [Add files using the command line](https://docs.gitlab.com/topics/git/add_files/#add-files-to-a-git-repository) or push an existing Git repository with the following command:
-
+```text
+minimart_backend/
+├── core/                  # settings.py, urls.py, asgi.py
+├── store/
+│   ├── models/            # Entity theo domain
+│   ├── serializers/       # Validate và biểu diễn JSON
+│   ├── views/             # ViewSets/APIViews
+│   ├── services/          # Nghiệp vụ độc lập với HTTP
+│   ├── admin/             # Giao diện quản trị
+│   ├── migrations/        # Schema migrations
+│   ├── tests/             # Unit/integration tests
+│   ├── consumers.py       # WebSocket consumer
+│   ├── routing.py         # /ws/support/
+│   ├── scheduler.py       # Scheduled jobs
+│   └── urls.py            # API routes
+├── media/                 # Upload local khi development
+├── manage.py
+├── requirements.txt
+├── Dockerfile
+└── docker-compose.yml
 ```
-cd existing_repo
-git remote add origin https://gitlab.sonix.vn/sonix/internship/supermarket-be.git
-git branch -M main
-git push -uf origin main
+
+Luồng xử lý thông thường: **URL → View/ViewSet → Serializer → Service → Model/PostgreSQL**. Redis dùng cho Django cache và Channels; Daphne phục vụ ASGI HTTP/WebSocket.
+
+## Mô hình dữ liệu
+
+| Nhóm | Models | Vai trò |
+|---|---|---|
+| Catalog | `Category`, `Product`, `Banner`, `StoreLocation`, `CrawlerProduct` | Danh mục và kho sản phẩm |
+| Commerce | `Cart`, `CartItem`, `Order`, `OrderItem` | Giỏ và vòng đời đơn hàng |
+| Review | `Review`, `ReviewMedia` | Đánh giá và media |
+| Customer | `UserProfile`, `Address` | Hồ sơ, phân quyền, giao hàng |
+| Promotion | `Voucher`, `UserVoucher`, `UserVoucherUsage` | Phát hành và sử dụng mã |
+| Support | `SupportTicket`, `SupportMessage` | Chăm sóc khách hàng realtime |
+| Notification | `FCMDevice` | Token thiết bị nhận push |
+
+## Yêu cầu
+
+- Python 3.12+.
+- PostgreSQL 15+.
+- Redis 7+.
+- Visual C++ Build Tools có thể cần thiết nếu cài package native trên Windows; `psycopg2-binary` thường không cần compiler.
+
+## Cài đặt local trên Windows
+
+```powershell
+cd minimart_backend
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+Copy-Item .env.example .env
 ```
 
-## Integrate with your tools
+Tạo database PostgreSQL (ví dụ `minimart_db`), cập nhật `.env`, rồi:
 
-* [Set up project integrations](https://gitlab.sonix.vn/sonix/internship/supermarket-be/-/settings/integrations)
+```powershell
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py check
+python manage.py runserver 0.0.0.0:8000
+```
 
-## Documentation & API Integration
+Django Admin: `http://127.0.0.1:8000/admin/`
 
-- **Firebase Push Notification & Social Login:** Xem tài liệu tích hợp chi tiết cho Frontend tại [docs/features/firebase_integration.md](docs/features/firebase_integration.md)
-- Các module khác đang được cập nhật...
+API root: `http://127.0.0.1:8000/api/`
 
-## Collaborate with your team
+### Chạy realtime bằng ASGI
 
-* [Invite team members and collaborators](https://docs.gitlab.com/user/project/members/)
-* [Create a new merge request](https://docs.gitlab.com/user/project/merge_requests/creating_merge_requests/)
-* [Automatically close issues from merge requests](https://docs.gitlab.com/user/project/issues/managing_issues/#closing-issues-automatically)
-* [Enable merge request approvals](https://docs.gitlab.com/user/project/merge_requests/approvals/)
-* [Set auto-merge](https://docs.gitlab.com/user/project/merge_requests/auto_merge/)
+```powershell
+daphne -b 0.0.0.0 -p 8000 core.asgi:application
+```
 
-## Test and Deploy
+Để chat hoạt động, Redis phải chạy và `REDIS_URL` phải truy cập được.
 
-Use the built-in continuous integration in GitLab.
+## Biến môi trường
 
-* [Get started with GitLab CI/CD](https://docs.gitlab.com/ci/quick_start/)
-* [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/user/application_security/sast/)
-* [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/topics/autodevops/requirements/)
-* [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/user/clusters/agent/)
-* [Set up protected environments](https://docs.gitlab.com/ci/environments/protected_environments/)
+Sao chép `.env.example` thành `.env`. Không commit `.env`.
 
-***
+| Biến | Bắt buộc | Mô tả / ví dụ local |
+|---|---:|---|
+| `SECRET_KEY` | Có | Chuỗi bí mật Django dài, ngẫu nhiên |
+| `DEBUG` | Có | `True` chỉ cho development |
+| `ALLOWED_HOSTS` | Có | `127.0.0.1,localhost,<IP-LAN>` |
+| `DB_NAME` | Có | `minimart_db` |
+| `DB_USER` | Có | PostgreSQL user |
+| `DB_PASSWORD` | Có | Mật khẩu riêng, không dùng giá trị mẫu |
+| `DB_HOST` | Có | Local: `127.0.0.1`; Compose: `db` |
+| `DB_PORT` | Có | Thường `5432` |
+| `REDIS_URL` | Nên có | Local/Compose Redis URL |
+| `CORS_ALLOWED_ORIGINS` | Có | Origins frontend web, phân cách dấu phẩy |
+| `EMAIL_HOST_USER` | OTP | Gmail gửi OTP |
+| `EMAIL_HOST_PASSWORD` | OTP | Gmail App Password, không phải mật khẩu thường |
+| `CRAWLER_SECRET` | Crawler | Secret bảo vệ import endpoint |
+| `GOONG_API_KEY` | Maps | API key từ Goong |
+| `WAREHOUSE_LAT/LNG` | Shipping | Tọa độ kho |
+| `SHIPPING_RATE_PER_KM` | Shipping | Phí mỗi km |
+| `SHIPPING_BASE_FEE` | Shipping | Phí cơ bản |
+| `VNPAY_TMN_CODE` | Payment | Merchant code sandbox/production |
+| `VNPAY_HASH_SECRET` | Payment | Secret ký request |
+| `VNPAY_PAYMENT_URL` | Payment | Gateway URL |
+| `VNPAY_RETURN_URL` | Payment | Trang frontend nhận kết quả |
+| `FIREBASE_CREDENTIALS_PATH` | Push/Auth | Đường dẫn Firebase Admin JSON |
+| `FIREBASE_STORAGE_BUCKET` | Media | Bucket Firebase |
 
-# Editing this README
+Tạo SECRET_KEY local:
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
+```powershell
+python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
+```
 
-## Suggestions for a good README
+## API
 
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+Base URL mặc định: `http://127.0.0.1:8000/api`
 
-## Name
-Choose a self-explaining name for your project.
+### Xác thực
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+| Method | Endpoint | Chức năng |
+|---|---|---|
+| POST | `/register/` | Đăng ký |
+| POST | `/token/` | Nhận access/refresh JWT |
+| POST | `/token/refresh/` | Làm mới access token |
+| POST | `/logout/` | Blacklist refresh token |
+| POST | `/auth/firebase/` | Đăng nhập Firebase |
+| GET/PATCH | `/me/` | Tài khoản hiện tại |
+| POST | `/change-password/` | Đổi mật khẩu |
+| POST | `/forgot-password/` | Gửi OTP |
+| POST | `/verify-otp/` | Kiểm tra OTP |
+| POST | `/reset-password/` | Đặt mật khẩu mới |
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+Header endpoint bảo vệ:
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+```http
+Authorization: Bearer <access_token>
+```
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+### Nghiệp vụ
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+| Nhóm | Endpoint chính |
+|---|---|
+| Catalog | `/categories/`, `/products/`, `/products/best-selling/`, `/banners/` |
+| Cart | `/carts/`, `/cart-items/` |
+| Order | `/orders/`, `/my-orders/` |
+| Review | `/reviews/` |
+| Profile | `/user-profiles/`, `/addresses/`, `/users/profile/stock-alerts/` |
+| Voucher | `/vouchers/`, `/vouchers/{id}/claim/`, `/vouchers/apply/`, `/my-vouchers/` |
+| Support | `/support/`, `/admin-support/` |
+| Reports | `/reports/revenue/summary/`, `/reports/revenue/range/` |
+| Payment | `/webhooks/vnpay-ipn/` |
+| Device | `/devices/`, `/devices/{token}/` |
+| Location | `/location/reverse-geocode/` |
+| Data import | `/crawler/import/` |
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+Các ViewSet còn sinh route detail/action theo Django REST Framework router. Quyền truy cập tùy endpoint và vai trò người dùng.
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+## WebSocket hỗ trợ
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+```text
+ws://127.0.0.1:8000/ws/support/
+wss://your-domain/ws/support/   # production HTTPS
+```
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+Client cần xác thực theo cơ chế consumer hiện tại. Redis Channel Layer truyền sự kiện giữa các worker; không dùng in-memory layer khi chạy nhiều instance production.
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+## Docker Compose
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+```powershell
+Copy-Item .env.example .env
+docker compose up --build
+docker compose exec web python manage.py migrate
+docker compose exec web python manage.py createsuperuser
+```
 
-## License
-For open source projects, say how it is licensed.
+Dịch vụ:
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+- `web`: Daphne tại cổng 8000.
+- `db`: PostgreSQL 15; project map host `5433 → 5432`.
+- `redis`: Redis 7; map host `63790 → 6379`.
+
+> Cấu hình `web` hiện đặt `DB_HOST=host.docker.internal`, phù hợp khi web container kết nối PostgreSQL trên Windows. Nếu muốn dùng service `db` của Compose, đổi thành `DB_HOST=db` và thêm `db` vào `depends_on`.
+
+Dừng/xóa container:
+
+```powershell
+docker compose down
+docker compose down -v   # CẢNH BÁO: xóa cả PostgreSQL volume
+```
+
+## Dữ liệu và migration
+
+```powershell
+python manage.py makemigrations
+python manage.py migrate
+python manage.py showmigrations
+```
+
+Không commit SQL dump hoặc dữ liệu người dùng. `datadump.json` nếu dùng cho demo phải được kiểm tra/xóa dữ liệu cá nhân và password hash trước khi công khai.
+
+Thu thập static production:
+
+```powershell
+python manage.py collectstatic --noinput
+```
+
+## Kiểm thử
+
+```powershell
+python manage.py check
+python manage.py test store.tests
+pytest
+pytest store/tests/test_voucher.py -v
+pytest store/tests/test_websocket.py -v
+```
+
+Kiểm thử tải:
+
+```powershell
+locust -f locustfile.py --host http://127.0.0.1:8000
+```
+
+## Triển khai production
+
+- `DEBUG=False`, SECRET_KEY mạnh và secrets đặt qua secret manager.
+- Giới hạn `ALLOWED_HOSTS`/CORS theo domain thật.
+- Reverse proxy Nginx/Caddy hỗ trợ HTTP và WebSocket upgrade.
+- HTTPS bắt buộc; settings đã bật secure cookie/HSTS khi không DEBUG.
+- Dùng managed PostgreSQL/Redis, backup định kỳ.
+- Không phục vụ media lớn trực tiếp bằng Django; dùng object storage/CDN.
+- Chạy migration trước khi chuyển traffic và giám sát VNPAY IPN/FCM failures.
+
+## Lỗi thường gặp
+
+- **`SECRET_KEY`/`DB_PASSWORD` is not set:** tạo `.env` đúng trong `minimart_backend`.
+- **PostgreSQL refused:** kiểm tra service, host/port/user/password và database đã tồn tại.
+- **Redis refused:** kiểm tra `REDIS_URL`; host port và container port khác nhau.
+- **CORS/DisallowedHost:** thêm đúng origin frontend và IP/domain backend.
+- **Điện thoại không kết nối:** dùng IP LAN thay `localhost`, mở firewall, cùng Wi-Fi.
+- **WebSocket 404:** chạy Daphne/ASGI và dùng đúng `/ws/support/`.
+- **OTP không gửi:** dùng Gmail App Password, bật cấu hình SMTP và kiểm tra spam/log.
+
+## Bảo mật
+
+Không đưa vào Git: `.env`, Firebase Admin JSON, database dump, log chứa token, API private key. Nếu credential từng công khai, hãy rotate ngay và làm sạch lịch sử Git.
